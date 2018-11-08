@@ -1,0 +1,193 @@
+﻿Log file open, 11/08/18 12:16:04
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: BattleTank
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.439022
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +7:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogConfig: Warning: Failed to saved backup for config[MobileLauncherProfileWizard]
+LogPluginManager: Mounting plugin PluginBrowser
+LogConfig: Warning: Failed to saved backup for config[PluginBrowser]
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogConfig: Warning: Failed to saved backup for config[SpeedTreeImporter]
+LogPluginManager: Mounting plugin DatasmithContent
+LogConfig: Warning: Failed to saved backup for config[DatasmithContent]
+LogPluginManager: Mounting plugin AlembicImporter
+LogConfig: Warning: Failed to saved backup for config[AlembicImporter]
+LogPluginManager: Mounting plugin AppleImageUtils
+LogConfig: Warning: Failed to saved backup for config[AppleImageUtils]
+LogPluginManager: Mounting plugin AppleVision
+LogConfig: Warning: Failed to saved backup for config[AppleVision]
+LogPluginManager: Mounting plugin BackChannel
+LogConfig: Warning: Failed to saved backup for config[BackChannel]
+LogPluginManager: Mounting plugin CharacterAI
+LogConfig: Warning: Failed to saved backup for config[CharacterAI]
+LogPluginManager: Mounting plugin GeometryCache
+LogConfig: Warning: Failed to saved backup for config[GeometryCache]
+LogPluginManager: Mounting plugin HTML5Networking
+LogConfig: Warning: Failed to saved backup for config[HTML5Networking]
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogConfig: Warning: Failed to saved backup for config[ProxyLODPlugin]
+LogPluginManager: Mounting plugin MagicLeap
+LogConfig: Warning: Failed to saved backup for config[MagicLeap]
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogConfig: Warning: Failed to saved backup for config[MagicLeapEmulator]
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogConfig: Warning: Failed to saved backup for config[MagicLeapMedia]
+LogPluginManager: Mounting plugin AndroidMedia
+LogConfig: Warning: Failed to saved backup for config[AndroidMedia]
+LogPluginManager: Mounting plugin AvfMedia
+LogConfig: Warning: Failed to saved backup for config[AvfMedia]
+LogPluginManager: Mounting plugin ImgMedia
+LogConfig: Warning: Failed to saved backup for config[ImgMedia]
+LogPluginManager: Mounting plugin LinearTimecode
+LogConfig: Warning: Failed to saved backup for config[LinearTimecode]
+LogPluginManager: Mounting plugin MediaCompositing
+LogConfig: Warning: Failed to saved backup for config[MediaCompositing]
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogConfig: Warning: Failed to saved backup for config[MediaPlayerEditor]
+LogPluginManager: Mounting plugin WmfMedia
+LogConfig: Warning: Failed to saved backup for config[WmfMedia]
+LogPluginManager: Mounting plugin TcpMessaging
+LogConfig: Warning: Failed to saved backup for config[TcpMessaging]
+LogPluginManager: Mounting plugin UdpMessaging
+LogConfig: Warning: Failed to saved backup for config[UdpMessaging]
+LogPluginManager: Mounting plugin ActorSequence
+LogConfig: Warning: Failed to saved backup for config[ActorSequence]
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogConfig: Warning: Failed to saved backup for config[LevelSequenceEditor]
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogConfig: Warning: Failed to saved backup for config[MatineeToLevelSequence]
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogConfig: Warning: Failed to saved backup for config[NetcodeUnitTest]
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogConfig: Warning: Failed to saved backup for config[NUTUnrealEngine4]
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogConfig: Warning: Failed to saved backup for config[OnlineSubsystemGooglePlay]
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogConfig: Warning: Failed to saved backup for config[OnlineSubsystemIOS]
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogConfig: Warning: Failed to saved backup for config[OnlineSubsystem]
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogConfig: Warning: Failed to saved backup for config[OnlineSubsystemNull]
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogConfig: Warning: Failed to saved backup for config[OnlineSubsystemUtils]
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogConfig: Warning: Failed to saved backup for config[LauncherChunkInstaller]
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogConfig: Warning: Failed to saved backup for config[AndroidDeviceProfileSelector]
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogConfig: Warning: Failed to saved backup for config[AndroidMoviePlayer]
+LogPluginManager: Mounting plugin AndroidPermission
+LogConfig: Warning: Failed to saved backup for config[AndroidPermission]
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogConfig: Warning: Failed to saved backup for config[AppleMoviePlayer]
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogConfig: Warning: Failed to saved backup for config[ArchVisCharacter]
+LogPluginManager: Mounting plugin AudioCapture
+LogConfig: Warning: Failed to saved backup for config[AudioCapture]
+LogPluginManager: Mounting plugin CableComponent
+LogConfig: Warning: Failed to saved backup for config[CableComponent]
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogConfig: Warning: Failed to saved backup for config[CustomMeshComponent]
+LogPluginManager: Mounting plugin EditableMesh
+LogConfig: Warning: Failed to saved backup for config[EditableMesh]
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogConfig: Warning: Failed to saved backup for config[ExampleDeviceProfileSelector]
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogConfig: Warning: Failed to saved backup for config[GoogleCloudMessaging]
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogConfig: Warning: Failed to saved backup for config[ImmediatePhysics]
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogConfig: Warning: Failed to saved backup for config[IOSDeviceProfileSelector]
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogConfig: Warning: Failed to saved backup for config[LinuxDeviceProfileSelector]
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogConfig: Warning: Failed to saved backup for config[LocationServicesBPLibrary]
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogConfig: Warning: Failed to saved backup for config[MobilePatchingUtils]
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogConfig: Warning: Failed to saved backup for config[OculusVR]
+LogPluginManager: Mounting plugin PhysXVehicles
+LogConfig: Warning: Failed to saved backup for config[PhysXVehicles]
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogConfig: Warning: Failed to saved backup for config[ProceduralMeshComponent]
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogConfig: Warning: Failed to saved backup for config[RuntimePhysXCooking]
+LogPluginManager: Mounting plugin SteamVR
+LogConfig: Warning: Failed to saved backup for config[SteamVR]
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogConfig: Warning: Failed to saved backup for config[WindowsMoviePlayer]
+LogStreaming: Display: Took  0.120s to configure plugins.
+LogInit: Warning: Incompatible or missing module: BattleTank
+Running D:/Program Files (x86)/Unreal Engine/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe Development Win64 -Project="F:/UnrealProjects/BattleTank/BattleTank/BattleTank.uproject" -TargetType=Editor -Progress -NoHotReloadFromIDE
+Using 'git status' to determine working set for adaptive non-unity build.
+ERROR: Failed to read FlatCPPIncludeDependencyCache: There is not enough space on the disk.
+Performing full C++ include scan (no include cache file)
+@progress push 5%
+@progress pop
+Building 7 actions with 12 processes...
+  @progress 'Compiling C++ source code...' 0%
+  @progress 'Compiling C++ source code...' 14%
+  [1/7] SharedPCH.Engine.cpp
+  F:\UnrealProjects\BattleTank\BattleTank\Intermediate\Build\Win64\BattleTankEditor\Development\Engine\SharedPCH.Engine.cpp(1): fatal error C1085: Cannot write precompiled header file: 'F:\UnrealProjects\BattleTank\BattleTank\Intermediate\Build\Win64\BattleTankEditor\Development\Engine\SharedPCH.Engine.h.pch': There is not enough space on the disk.
+  
+  
+ERROR: UBT ERROR: Failed to produce item: F:\UnrealProjects\BattleTank\BattleTank\Binaries\Win64\UE4Editor-BattleTank.dll
+       (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
+Total build time: 26.84 seconds (Parallel executor: 0.00 seconds)
+LogInit: Warning: Still incompatible or missing module: BattleTank
+LogExit: Preparing to exit.
+LogModuleManager: Shutting down and abandoning module DesktopPlatform (38)
+LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+LogModuleManager: Shutting down and abandoning module Landscape (26)
+LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+LogModuleManager: Shutting down and abandoning module Renderer (16)
+LogModuleManager: Shutting down and abandoning module Engine (14)
+LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+LogModuleManager: Shutting down and abandoning module PakFile (2)
+LogExit: Exiting.
+Log file closed, 11/08/18 12:16:39
