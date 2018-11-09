@@ -1,4 +1,4 @@
-﻿Log file open, 11/08/18 17:42:03
+﻿Log file open, 11/09/18 11:16:40
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -10,7 +10,7 @@ LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: BattleTank
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.448593
+LogStats: Stats thread started at 2.440036
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +7:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -93,7 +93,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.090s to configure plugins.
+LogStreaming: Display: Took  0.394s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -147,383 +147,1046 @@ LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC
 LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
 LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
 LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
-LogStreaming: Display: Took  0.001s to delete old logs.
+LogStreaming: Display: Took  0.030s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.11.08-10.42.03:449][  0]LogInit: Selected Device Profile: [Windows]
-[2018.11.08-10.42.03:449][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.11.08-10.42.03:477][  0]LogHAL: Display: Platform has ~ 16 GB [17087963136 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2018.11.08-10.42.03:477][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
-[2018.11.08-10.42.03:477][  0]LogInit: Going up to parent DeviceProfile []
-[2018.11.08-10.42.03:477][  0]LogInit: Computer: DESKTOP-JJ2FPLO
-[2018.11.08-10.42.03:477][  0]LogInit: User: truon
-[2018.11.08-10.42.03:478][  0]LogInit: CPU Page size=4096, Cores=6
-[2018.11.08-10.42.03:478][  0]LogInit: High frequency timer resolution =3.222655 MHz
-[2018.11.08-10.42.03:478][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2018.11.08-10.42.03:478][  0]LogMemory: Platform Memory Stats for Windows
-[2018.11.08-10.42.03:478][  0]LogMemory: Process Physical Memory: 101.59 MB used, 101.59 MB peak
-[2018.11.08-10.42.03:478][  0]LogMemory: Process Virtual Memory: 85.91 MB used, 85.91 MB peak
-[2018.11.08-10.42.03:478][  0]LogMemory: Physical Memory: 7272.24 MB used,  9024.11 MB free, 16296.35 MB total
-[2018.11.08-10.42.03:478][  0]LogMemory: Virtual Memory: 4657.16 MB used,  9024.11 MB free, 134217728.00 MB total
-[2018.11.08-10.42.03:507][  0]LogInit: Using OS detected language (en-US).
-[2018.11.08-10.42.03:507][  0]LogInit: Using OS detected locale (en-US).
-[2018.11.08-10.42.03:508][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2018.11.08-10.42.03:918][  0]LogStreaming: Display: Took  0.412s to InitEngineTextLocalization.
-[2018.11.08-10.42.03:919][  0]LogInit: Setting process to per monitor DPI aware
-[2018.11.08-10.42.03:965][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2018.11.08-10.42.03:965][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2018.11.08-10.42.04:214][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.11.08-10.42.04:214][  0]LogD3D11RHI: D3D11 adapters:
-[2018.11.08-10.42.04:258][  0]LogD3D11RHI:    0. 'AMD Radeon R9 200 Series' (Feature Level 11_0)
-[2018.11.08-10.42.04:258][  0]LogD3D11RHI:       3052/0/8148 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
-[2018.11.08-10.42.04:263][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.11.08-10.42.04:263][  0]LogD3D11RHI:       0/0/8148 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.11.08-10.42.04:263][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.11.08-10.42.04:273][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.11.08-10.42.04:273][  0]LogD3D11RHI:     GPU DeviceId: 0x679a (for the marketing name, search the web for "GPU Device Id")
-[2018.11.08-10.42.04:273][  0]LogWindows: EnumDisplayDevices:
-[2018.11.08-10.42.04:274][  0]LogWindows:    0. 'AMD Radeon R9 200 Series' (P:1 D:1)
-[2018.11.08-10.42.04:274][  0]LogWindows:    1. 'AMD Radeon R9 200 Series' (P:0 D:0)
-[2018.11.08-10.42.04:275][  0]LogWindows:    2. 'AMD Radeon R9 200 Series' (P:0 D:0)
-[2018.11.08-10.42.04:275][  0]LogWindows:    3. 'AMD Radeon R9 200 Series' (P:0 D:0)
-[2018.11.08-10.42.04:276][  0]LogWindows:    4. 'AMD Radeon R9 200 Series' (P:0 D:0)
-[2018.11.08-10.42.04:276][  0]LogWindows:    5. 'AMD Radeon R9 200 Series' (P:0 D:0)
-[2018.11.08-10.42.04:277][  0]LogWindows:    6. 'AMD Radeon R9 200 Series' (P:0 D:0)
-[2018.11.08-10.42.04:277][  0]LogWindows: DebugString: FoundDriverCount:7 
-[2018.11.08-10.42.04:277][  0]LogD3D11RHI:     Adapter Name: AMD Radeon R9 200 Series
-[2018.11.08-10.42.04:277][  0]LogD3D11RHI:   Driver Version: Adrenalin 18.8.2 (internal:24.20.13011.1009, unified:24.20.13011.1009)
-[2018.11.08-10.42.04:277][  0]LogD3D11RHI:      Driver Date: 8-27-2018
-[2018.11.08-10.42.04:277][  0]LogRHI: Texture pool is 2136 MB (70% of 3052 MB)
-[2018.11.08-10.42.04:348][  0]LogD3D11RHI: Async texture creation enabled
-[2018.11.08-10.42.04:362][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
-[2018.11.08-10.42.04:363][  0]LogShaderCompilers: Guid format shader working directory is 7 characters bigger than the processId version (F:/UnrealProjects/BattleTank/BattleTank/Intermediate/Shaders/WorkingDirectory/1736/).
-[2018.11.08-10.42.04:364][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/truon/AppData/Local/Temp/UnrealShaderWorkingDir/381110B64DB3B21F4BE47F981D29B53C/'.
-[2018.11.08-10.42.04:655][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.11.08-10.42.04:671][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.11.08-10.42.04:687][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.11.08-10.42.04:702][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.11.08-10.42.04:718][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.11.08-10.42.04:733][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.11.08-10.42.04:749][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.11.08-10.42.04:765][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.11.08-10.42.04:773][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.11.08-10.42.04:855][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.08-10.42.04:855][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.08-10.42.04:855][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.08-10.42.04:855][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.08-10.42.04:855][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.08-10.42.04:855][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.08-10.42.04:855][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.08-10.42.04:855][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.08-10.42.04:855][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.08-10.42.04:855][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.08-10.42.04:855][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.08-10.42.04:855][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.08-10.42.04:855][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.08-10.42.04:855][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.08-10.42.04:855][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.08-10.42.04:855][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.08-10.42.04:855][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.08-10.42.04:855][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.08-10.42.04:857][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.11.08-10.42.04:932][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.11.08-10.42.04:932][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.11.08-10.42.04:965][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.11.08-10.42.04:965][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.11.08-10.42.04:979][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.11.08-10.42.04:993][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.11.08-10.42.05:006][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.11.08-10.42.05:020][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.11.08-10.42.05:030][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2018.11.08-10.42.05:030][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.11.08-10.42.05:126][  0]LogXGEController: Cleaning working directory: C:/Users/truon/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2018.11.08-10.42.05:126][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2018.11.08-10.42.05:127][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2018.11.08-10.42.05:127][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.11.08-10.42.06:144][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.11.08-10.42.06:245][  0]LogDerivedDataCache: Loaded boot cache 0.10s 71MB C:/Users/truon/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2018.11.08-10.42.06:246][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/truon/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
-[2018.11.08-10.42.06:246][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file F:/UnrealProjects/BattleTank/BattleTank/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.11.08-10.42.06:246][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.11.08-10.42.06:246][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file F:/UnrealProjects/BattleTank/BattleTank/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.11.08-10.42.06:246][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.11.08-10.42.06:263][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.11.08-10.42.06:277][  0]LogDerivedDataCache: Using Local data cache path C:/Users/truon/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.11.08-10.42.06:277][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2018.11.08-10.42.06:277][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2018.11.08-10.42.06:327][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.11.08-10.42.06:329][  0]LogSlate: Using FreeType 2.6.0
-[2018.11.08-10.42.06:330][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.11.08-10.42.06:428][  0]LogAssetRegistry: FAssetRegistry took 0.0263 seconds to start up
-[2018.11.08-10.42.06:816][  0]LogInit: Selected Device Profile: [Windows]
-[2018.11.08-10.42.06:921][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.11.08-10.42.06:928][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.11.08-10.42.06:928][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2018.11.08-10.42.06:928][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.11.08-10.42.06:928][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.11.08-10.42.07:062][  0]LogNetVersion: BattleTank 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 486398009)
-[2018.11.08-10.42.07:761][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.107544 seconds
-[2018.11.08-10.42.07:767][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
-[2018.11.08-10.42.07:767][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
-[2018.11.08-10.42.07:767][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.11.08-10.42.08:902][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.11.08-10.42.08:915][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.11.08-10.42.09:116][  0]SourceControl: Source control is disabled
-[2018.11.08-10.42.09:116][  0]SourceControl: Source control is disabled
-[2018.11.08-10.42.09:118][  0]SourceControl: Source control is disabled
-[2018.11.08-10.42.09:120][  0]SourceControl: Source control is disabled
-[2018.11.08-10.42.09:317][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.11.08-10.42.09:471][  0]LogOcInput: OculusInput pre-init called
-[2018.11.08-10.42.09:538][  0]LogEngine: Initializing Engine...
-[2018.11.08-10.42.09:539][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.11.08-10.42.09:541][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2018.11.08-10.42.09:541][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.11.08-10.42.09:541][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2018.11.08-10.42.09:541][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.11.08-10.42.09:818][  0]LogInit: Initializing FReadOnlyCVARCache
-[2018.11.08-10.42.09:842][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.11.08-10.42.09:888][  0]LogInit: XAudio2 using '3 - DELL U2414H (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.11.08-10.42.09:910][  0]LogInit: FAudioDevice initialized.
-[2018.11.08-10.42.09:910][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2018.11.08-10.42.10:075][  0]LogDerivedDataCache: Saved boot cache 0.17s 71MB C:/Users/truon/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2018.11.08-10.42.10:111][  0]LogInit: Texture streaming: Enabled
-[2018.11.08-10.42.10:143][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.11.08-10.42.10:166][  0]LogInit: Transaction tracking system initialized
-[2018.11.08-10.42.10:210][  0]BlueprintLog: New page: Editor Load
-[2018.11.08-10.42.10:331][  0]LocalizationService: Localization service is disabled
-[2018.11.08-10.42.10:955][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.11.08-10.42.10:955][  0]LogCook: Display: Mobile HDR setting 1
-[2018.11.08-10.42.10:955][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.11.08-10.42.10:955][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2018.11.08-10.42.10:955][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.11.08-10.42.10:955][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2018.11.08-10.42.10:955][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.11.08-10.42.11:090][  0]LogFileCache: Scanning file cache for directory 'F:/UnrealProjects/BattleTank/BattleTank/Content/' took 0.01s
-[2018.11.08-10.42.11:091][  0]SourceControl: Source control is disabled
-[2018.11.08-10.42.11:091][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.11.08-10.42.11:091][  0]LightingResults: New page: Lighting Build
-[2018.11.08-10.42.11:095][  0]MapCheck: New page: Map Check
-[2018.11.08-10.42.11:095][  0]LightingResults: New page: Lighting Build
-[2018.11.08-10.42.11:292][  0]LogAIModule: Creating AISystem for world Untitled_1
-[2018.11.08-10.42.11:298][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.11.08-10.42.11:326][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.11.08-10.42.11:430][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 104.275ms to complete.
-[2018.11.08-10.42.11:430][  0]LogFileHelpers: Loading map 'Template_Default' took 0.340
-[2018.11.08-10.42.11:514][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.11.08-10.42.11:524][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.11.08-10.42.11:531][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.11.08-10.42.11:540][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.11.08-10.42.11:550][  0]LogCollectionManager: Loaded 0 collections in 0.003703 seconds
-[2018.11.08-10.42.11:595][  0]LogFileCache: Scanning file cache for directory 'F:/UnrealProjects/BattleTank/BattleTank/Saved/Collections/' took 0.01s
-[2018.11.08-10.42.11:595][  0]LogFileCache: Scanning file cache for directory 'F:/UnrealProjects/BattleTank/BattleTank/Content/Developers/truon/Collections/' took 0.01s
-[2018.11.08-10.42.11:595][  0]LogFileCache: Scanning file cache for directory 'F:/UnrealProjects/BattleTank/BattleTank/Content/Collections/' took 0.01s
-[2018.11.08-10.42.11:595][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2018.11.08-10.42.11:606][  0]LogContentBrowser: Native class hierarchy populated in 0.0112 seconds. Added 2574 classes and 605 folders.
-[2018.11.08-10.42.11:615][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2018.11.08-10.42.11:682][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2018.11.08-10.42.11:689][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
-[2018.11.08-10.42.11:743][  0]LogDirectoryWatcher: Warning: Failed to begin reading directory changes for F:/UnrealProjects/BattleTank/BattleTank/Plugins/. Error: The system cannot find the file specified. (0x00000002)
-[2018.11.08-10.42.12:931][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
-[2018.11.08-10.42.12:964][  0]LogSlate: Took 0.000326 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.11.08-10.42.12:968][  0]LogSlate: Took 0.000235 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.11.08-10.42.12:971][  0]LogSlate: Took 0.000233 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.11.08-10.42.13:040][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.BattleTank
-[2018.11.08-10.42.13:040][  0]LogTemp: CWD: D:\Program Files (x86)\Unreal Engine\UE_4.20\Engine\Binaries\DotNET\IOS
-[2018.11.08-10.42.13:040][  0]LogTemp: Initial Dir: D:\Program Files (x86)\Unreal Engine\UE_4.20
-[2018.11.08-10.42.13:040][  0]LogTemp: Env CWD: D:\Program Files (x86)\Unreal Engine\UE_4.20\Engine\Binaries\DotNET\IOS
-[2018.11.08-10.42.13:040][  0]LogTemp: BranchPath = DESKTOP-JJ2FPLO/D/Program Files (x86)/Unreal Engine/UE_4.20/Engine/Binaries --- GameBranchPath = DESKTOP-JJ2FPLO/D/Program Files (x86)/Unreal Engine/UE_4.20/Engine/Binaries
-[2018.11.08-10.42.13:040][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\truon\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
-[2018.11.08-10.42.13:040][  0]LogRenderer: Reallocating scene render targets to support 1468x628 Format 9 NumSamples 1 (Frame:1).
-[2018.11.08-10.42.13:086][  0]LogSlate: Took 0.000273 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.11.08-10.42.13:179][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2018.11.08-10.42.13:179][  0]LogLoad: (Engine Initialization) Total time: 12.62 seconds
-[2018.11.08-10.42.13:179][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.11.08-10.42.13:221][  0]LogContentStreaming: Texture pool size now 600 MB
-[2018.11.08-10.42.13:264][  1]LogAssetRegistry: Asset discovery search completed in 6.8578 seconds
-[2018.11.08-10.42.13:266][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2018.11.08-10.42.13:266][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000071 seconds (updated 0 objects)
-[2018.11.08-10.42.14:598][  5]LogSlate: Took 0.000343 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.11.08-10.43.36:608][865]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.08-10.43.41:475][431]LogLinker: Warning: Can't find file '/Game/Tank/tank_green_002'
-[2018.11.08-10.43.41:475][431]LogLinker: Warning: Can't find file for asset '/Game/Tank/tank_green_002' while loading F:/UnrealProjects/BattleTank/BattleTank/Content/Tank/tank_fbx_Barrel.uasset.
-[2018.11.08-10.43.41:475][431]LoadErrors: Error: /Game/Tank/tank_fbx_Barrel : Can't find file for asset. /Game/Tank/tank_green_002
-[2018.11.08-10.43.41:475][431]LogLinker: Warning: Can't find file '/Game/Tank/tank_green_002'
-[2018.11.08-10.43.41:475][431]LogLinker: Warning: Can't find file for asset '/Game/Tank/tank_green_002' while loading F:/UnrealProjects/BattleTank/BattleTank/Content/Tank/tank_fbx_Barrel.uasset.
-[2018.11.08-10.43.41:484][431]LogLinker: Warning: Can't find file '/Game/Tank/track_001'
-[2018.11.08-10.43.41:484][431]LogLinker: Warning: Can't find file for asset '/Game/Tank/track_001' while loading F:/UnrealProjects/BattleTank/BattleTank/Content/Tank/tank_fbx_Track.uasset.
-[2018.11.08-10.43.41:484][431]LoadErrors: Error: /Game/Tank/tank_fbx_Track : Can't find file for asset. /Game/Tank/track_001
-[2018.11.08-10.43.41:484][431]LogLinker: Warning: Can't find file '/Game/Tank/track_001'
-[2018.11.08-10.43.41:485][431]LogLinker: Warning: Can't find file for asset '/Game/Tank/track_001' while loading F:/UnrealProjects/BattleTank/BattleTank/Content/Tank/tank_fbx_Track.uasset.
-[2018.11.08-10.43.41:514][431]LogLinker: Warning: Can't find file '/Game/Tank/track_001'
-[2018.11.08-10.43.41:514][431]LoadErrors: Failed to load /Game/Tank/track_001.track_001 Referenced by tank_fbx_Track
-[2018.11.08-10.43.41:514][431]LogLinker: Warning: Can't find file for asset '/Game/Tank/track_001' while loading NULL.
-[2018.11.08-10.43.41:515][431]LogLinker: Warning: Can't find file '/Game/Tank/track_001'
-[2018.11.08-10.43.41:515][431]LogLinker: Warning: Can't find file for asset '/Game/Tank/track_001' while loading NULL.
-[2018.11.08-10.43.41:515][431]LogLinker: Warning: Can't find file '/Game/Tank/tank_green_002'
-[2018.11.08-10.43.41:515][431]LoadErrors: Failed to load /Game/Tank/tank_green_002.tank_green_002 Referenced by tank_fbx_Barrel
-[2018.11.08-10.43.41:515][431]LogLinker: Warning: Can't find file for asset '/Game/Tank/tank_green_002' while loading NULL.
-[2018.11.08-10.43.41:516][431]LogLinker: Warning: Can't find file '/Game/Tank/tank_green_002'
-[2018.11.08-10.43.41:516][431]LogLinker: Warning: Can't find file for asset '/Game/Tank/tank_green_002' while loading NULL.
-[2018.11.08-10.43.41:560][431]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Tank/Tank_BP.Tank_BP
-[2018.11.08-10.43.41:971][431]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 116 classes and 0 folders.
-[2018.11.08-10.43.43:483][431]LogSlate: Took 0.000637 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2018.11.08-10.43.43:886][432]LogSlate: Took 0.000648 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2018.11.08-10.43.45:485][602]LogSlate: Window 'Tank_BP' being destroyed
-[2018.11.08-10.44.26:477][481]Running D:/Program Files (x86)/Unreal Engine/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe Win64 Development -TargetType=Editor -Project="F:/UnrealProjects/BattleTank/BattleTank/BattleTank.uproject" -invalidatemakefilesonly
-[2018.11.08-10.44.27:493][481]Invalidating makefiles only in this run.
-[2018.11.08-10.44.27:613][481]Candidate modules for hot reload:
-[2018.11.08-10.44.27:613][481]  BattleTank
-[2018.11.08-10.44.27:613][481]Launching UnrealBuildTool... [D:/Program Files (x86)/Unreal Engine/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BattleTank,672 Win64 Development -TargetType=Editor -Project="F:/UnrealProjects/BattleTank/BattleTank/BattleTank.uproject" -canskiplink "F:/UnrealProjects/BattleTank/BattleTank/BattleTank.uproject" ]
-[2018.11.08-10.44.48:989][481]CompilerResultsLog: New page: Compilation - Nov 9, 2018, 12:44:48 AM
-[2018.11.08-10.44.48:989][481]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
-[2018.11.08-10.44.48:989][481]CompilerResultsLog: Creating makefile for hot reloading BattleTankEditor (no existing makefile)
-[2018.11.08-10.44.48:989][481]CompilerResultsLog: Compiling game modules for hot reload
-[2018.11.08-10.44.48:989][481]CompilerResultsLog: Using Visual Studio 2017 14.15.26726 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-[2018.11.08-10.44.48:989][481]CompilerResultsLog: Parsing headers for BattleTankEditor
-[2018.11.08-10.44.48:989][481]CompilerResultsLog:   Running UnrealHeaderTool "F:\UnrealProjects\BattleTank\BattleTank\BattleTank.uproject" "F:\UnrealProjects\BattleTank\BattleTank\Intermediate\Build\Win64\BattleTankEditor\Development\BattleTankEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-[2018.11.08-10.44.48:989][481]CompilerResultsLog: Reflection code generated for BattleTankEditor in 11.7287537 seconds
-[2018.11.08-10.44.48:989][481]CompilerResultsLog: Building 12 actions with 12 processes...
-[2018.11.08-10.44.48:989][481]CompilerResultsLog:   [1/12] TankPlayerController.cpp
-[2018.11.08-10.44.48:989][481]CompilerResultsLog:    F:\UnrealProjects\BattleTank\BattleTank\Source\BattleTank\TankPlayerController.cpp(8) : error C2561: 'ATankPlayerController::GetControllerTank': function must return a value
-[2018.11.08-10.44.48:989][481]CompilerResultsLog:   F:\UnrealProjects\BattleTank\BattleTank\Source\BattleTank\TankPlayerController.cpp(5): note: see declaration of 'ATankPlayerController::GetControllerTank'
-[2018.11.08-10.44.48:989][481]CompilerResultsLog:   [2/12] BattleTank.cpp
-[2018.11.08-10.44.48:989][481]CompilerResultsLog:   [3/12] TankPawn.cpp
-[2018.11.08-10.44.48:989][481]CompilerResultsLog:   [4/12] Tank.cpp
-[2018.11.08-10.44.48:989][481]CompilerResultsLog:   [5/12] BattleTank.init.gen.cpp
-[2018.11.08-10.44.48:989][481]CompilerResultsLog:   [6/12] BattleTankGameModeBase.cpp
-[2018.11.08-10.44.48:989][481]CompilerResultsLog:   [7/12] Tank.gen.cpp
-[2018.11.08-10.44.48:989][481]CompilerResultsLog:   [8/12] TankPlayerController.gen.cpp
-[2018.11.08-10.44.48:989][481]CompilerResultsLog:   [9/12] BattleTankGameModeBase.gen.cpp
-[2018.11.08-10.44.48:989][481]CompilerResultsLog:   [10/12] TankPawn.gen.cpp
-[2018.11.08-10.44.48:989][481]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: F:\UnrealProjects\BattleTank\BattleTank\Binaries\Win64\UE4Editor-BattleTank-672.dll
-[2018.11.08-10.44.48:989][481]CompilerResultsLog:        (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
-[2018.11.08-10.44.48:989][481]CompilerResultsLog: Total build time: 21.13 seconds (Parallel executor: 0.00 seconds)
-[2018.11.08-10.44.48:989][481]LogMainFrame: MainFrame: Module compiling took 21.382 seconds
-[2018.11.08-10.44.48:990][481]Warning: HotReload failed, recompile failed
-[2018.11.08-10.44.48:994][481]Warning: RebindPackages failed because compilation failed.
-[2018.11.08-10.46.26:305][481]LogSlate: Window 'Message' being destroyed
-[2018.11.08-10.46.26:311][481]LogSlate: Window 'Add C++ Class' being destroyed
-[2018.11.08-10.46.44:522][732]Candidate modules for hot reload:
-[2018.11.08-10.46.44:522][732]  BattleTank
-[2018.11.08-10.46.44:523][732]Launching UnrealBuildTool... [D:/Program Files (x86)/Unreal Engine/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BattleTank,1324 Win64 Development -TargetType=Editor -Project="F:/UnrealProjects/BattleTank/BattleTank/BattleTank.uproject" -canskiplink "F:/UnrealProjects/BattleTank/BattleTank/BattleTank.uproject" ]
-[2018.11.08-10.46.44:530][732]Warning: Starting HotReload took  0.0s.
-[2018.11.08-10.47.03:829][493]CompilerResultsLog: New page: Compilation - Nov 9, 2018, 12:47:03 AM
-[2018.11.08-10.47.03:830][493]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
-[2018.11.08-10.47.03:830][493]CompilerResultsLog: Compiling game modules for hot reload
-[2018.11.08-10.47.03:830][493]CompilerResultsLog: Parsing headers for BattleTankEditor
-[2018.11.08-10.47.03:830][493]CompilerResultsLog:   Running UnrealHeaderTool "F:\UnrealProjects\BattleTank\BattleTank\BattleTank.uproject" "F:\UnrealProjects\BattleTank\BattleTank\Intermediate\Build\Win64\BattleTankEditor\Development\BattleTankEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-[2018.11.08-10.47.03:830][493]CompilerResultsLog: Reflection code generated for BattleTankEditor in 13.2353925 seconds
-[2018.11.08-10.47.03:830][493]CompilerResultsLog: Building 4 actions with 12 processes...
-[2018.11.08-10.47.03:830][493]CompilerResultsLog:   [1/4] TankPlayerController.cpp
-[2018.11.08-10.47.03:830][493]CompilerResultsLog:   [2/4] TankPlayerController.gen.cpp
-[2018.11.08-10.47.03:830][493]CompilerResultsLog:   [3/4] UE4Editor-BattleTank-1324.lib
-[2018.11.08-10.47.03:830][493]CompilerResultsLog:      Creating library F:\UnrealProjects\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\UE4Editor-BattleTank-1324.lib and object F:\UnrealProjects\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\UE4Editor-BattleTank-1324.exp
-[2018.11.08-10.47.03:830][493]CompilerResultsLog:   [4/4] UE4Editor-BattleTank-1324.dll
-[2018.11.08-10.47.03:830][493]CompilerResultsLog:      Creating library F:\UnrealProjects\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\UE4Editor-BattleTank-1324.suppressed.lib and object F:\UnrealProjects\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\UE4Editor-BattleTank-1324.suppressed.exp
-[2018.11.08-10.47.03:830][493]CompilerResultsLog: Total build time: 18.79 seconds (Parallel executor: 2.09 seconds)
-[2018.11.08-10.47.03:830][493]LogMainFrame: MainFrame: Module compiling took 19.314 seconds
-[2018.11.08-10.47.03:911][493]LogClass: Could not find existing class Tank in package /Script/BattleTank for HotReload, assuming new class
-[2018.11.08-10.47.03:911][493]LogClass: Could not find existing class TankPawn in package /Script/BattleTank for HotReload, assuming new class
-[2018.11.08-10.47.03:915][493]LogContentBrowser: Native class hierarchy updated for 'BattleTank' in 0.0006 seconds. Added 4 classes and 3 folders.
-[2018.11.08-10.47.03:920][493]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
-[2018.11.08-10.47.04:477][493]LogContentBrowser: Native class hierarchy populated in 0.0106 seconds. Added 2577 classes and 608 folders.
-[2018.11.08-10.47.04:477][493]Display: HotReload took 20.0s.
-[2018.11.08-10.47.15:358][485]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
-[2018.11.08-10.47.19:989][985]LogBlueprint: Warning: Reparenting blueprint Blueprint /Game/Tank/Tank_BP.Tank_BP from Pawn to Tank...
-[2018.11.08-10.47.20:008][985]BlueprintLog: New page: Compile Tank_BP
-[2018.11.08-10.47.21:993][152]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/Tank_BP" FILE="F:/UnrealProjects/BattleTank/BattleTank/Content/Tank/Tank_BP.uasset" SILENT=true
-[2018.11.08-10.47.22:047][152]LogSavePackage: Moving 'F:/UnrealProjects/BattleTank/BattleTank/Saved/Tank_BP9618AD3248822AAD7A8CE79DB36E668E.tmp' to 'F:/UnrealProjects/BattleTank/BattleTank/Content/Tank/Tank_BP.uasset'
-[2018.11.08-10.48.49:061][819]Candidate modules for hot reload:
-[2018.11.08-10.48.49:061][819]  BattleTank
-[2018.11.08-10.48.49:061][819]Launching UnrealBuildTool... [D:/Program Files (x86)/Unreal Engine/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BattleTank,5424 Win64 Development -TargetType=Editor -Project="F:/UnrealProjects/BattleTank/BattleTank/BattleTank.uproject" -canskiplink "F:/UnrealProjects/BattleTank/BattleTank/BattleTank.uproject" ]
-[2018.11.08-10.48.49:066][819]Warning: Starting HotReload took  0.0s.
-[2018.11.08-10.48.53:656][126]CompilerResultsLog: New page: Compilation - Nov 9, 2018, 12:48:53 AM
-[2018.11.08-10.48.53:656][126]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
-[2018.11.08-10.48.53:656][126]CompilerResultsLog: Compiling game modules for hot reload
-[2018.11.08-10.48.53:656][126]CompilerResultsLog: Building 3 actions with 12 processes...
-[2018.11.08-10.48.53:656][126]CompilerResultsLog:   [1/3] TankPlayerController.cpp
-[2018.11.08-10.48.53:656][126]CompilerResultsLog:    f:\unrealprojects\battletank\battletank\source\battletank\tankplayercontroller.cpp(9)  : error C4716: 'ATankPlayerController::GetControllerTank': must return a value
-[2018.11.08-10.48.53:656][126]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: F:\UnrealProjects\BattleTank\BattleTank\Binaries\Win64\UE4Editor-BattleTank-5424.dll
-[2018.11.08-10.48.53:656][126]CompilerResultsLog:        (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
-[2018.11.08-10.48.53:656][126]CompilerResultsLog: Total build time: 4.30 seconds (Parallel executor: 0.00 seconds)
-[2018.11.08-10.48.53:657][126]LogMainFrame: MainFrame: Module compiling took 4.601 seconds
-[2018.11.08-10.48.53:657][126]Warning: HotReload failed, recompile failed
-[2018.11.08-10.49.41:939][380]Candidate modules for hot reload:
-[2018.11.08-10.49.41:939][380]  BattleTank
-[2018.11.08-10.49.41:939][380]Launching UnrealBuildTool... [D:/Program Files (x86)/Unreal Engine/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BattleTank,3936 Win64 Development -TargetType=Editor -Project="F:/UnrealProjects/BattleTank/BattleTank/BattleTank.uproject" -canskiplink "F:/UnrealProjects/BattleTank/BattleTank/BattleTank.uproject" ]
-[2018.11.08-10.49.41:944][380]Warning: Starting HotReload took  0.0s.
-[2018.11.08-10.49.46:295][737]CompilerResultsLog: New page: Compilation - Nov 9, 2018, 12:49:46 AM
-[2018.11.08-10.49.46:295][737]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
-[2018.11.08-10.49.46:295][737]CompilerResultsLog: Compiling game modules for hot reload
-[2018.11.08-10.49.46:295][737]CompilerResultsLog: Building 3 actions with 12 processes...
-[2018.11.08-10.49.46:295][737]CompilerResultsLog:   [1/3] TankPlayerController.cpp
-[2018.11.08-10.49.46:295][737]CompilerResultsLog:    f:\unrealprojects\battletank\battletank\source\battletank\tankplayercontroller.cpp(9)  : error C4700: uninitialized local variable 'Tank' used
-[2018.11.08-10.49.46:295][737]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: F:\UnrealProjects\BattleTank\BattleTank\Binaries\Win64\UE4Editor-BattleTank-3936.dll
-[2018.11.08-10.49.46:295][737]CompilerResultsLog:        (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
-[2018.11.08-10.49.46:295][737]CompilerResultsLog: Total build time: 3.88 seconds (Parallel executor: 0.00 seconds)
-[2018.11.08-10.49.46:296][737]LogMainFrame: MainFrame: Module compiling took 4.362 seconds
-[2018.11.08-10.49.46:296][737]Warning: HotReload failed, recompile failed
-[2018.11.08-10.51.34:299][248]LogLinker: Warning: Can't find file '/Game/NewBlueprint'
-[2018.11.08-10.51.34:299][248]LogLinker: Warning: Can't find file '/Game/NewBlueprint'
-[2018.11.08-10.51.34:299][248]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/NewBlueprint.NewBlueprint_C'
-[2018.11.08-10.51.42:657][231]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
-[2018.11.08-10.51.45:296][527]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
-[2018.11.08-10.51.51:479][252]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
-[2018.11.08-10.51.55:063][675]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
-[2018.11.08-10.51.57:305][930]LogTemp: Repeating last play command: Selected Viewport
-[2018.11.08-10.51.57:324][930]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.11.08-10.51.57:336][930]PIE: New page: PIE session: Untitled_1 (Nov 9, 2018, 12:51:57 AM)
-[2018.11.08-10.51.57:336][930]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
-[2018.11.08-10.51.57:339][930]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003097s)
-[2018.11.08-10.51.57:340][930]LogAIModule: Creating AISystem for world Untitled_1
-[2018.11.08-10.51.57:340][930]LogPlayLevel: PIE: World Init took: (0.000822s)
-[2018.11.08-10.51.57:340][930]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.004082s)
-[2018.11.08-10.51.57:394][930]LogInit: XAudio2 using '3 - DELL U2414H (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.11.08-10.51.57:405][930]LogInit: FAudioDevice initialized.
-[2018.11.08-10.51.57:448][930]LogLoad: Game class is 'Tank_GameMode_C'
-[2018.11.08-10.51.57:452][930]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2018.11.08-17.51.57
-[2018.11.08-10.51.57:453][930]LogWorld: Bringing up level for play took: 0.001327
-[2018.11.08-10.51.57:536][930]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 10 classes and 0 folders.
-[2018.11.08-10.51.57:538][930]PIE: Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.362
-[2018.11.08-10.52.01:918][446]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.11.08-10.52.01:954][446]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.11.08-10.52.02:006][446]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.11.08-10.52.02:024][447]LogPlayLevel: Display: Destroying online subsystem :Context_5
-[2018.11.08-10.52.14:598][330]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.08-10.52.16:031][456]LogAIModule: Creating AISystem for world BattleGround
-[2018.11.08-10.52.16:088][456]LogAssetEditorManager: Opening Asset editor for World /Game/BattleGround.BattleGround
-[2018.11.08-10.52.17:320][456]LogSlate: Window 'Save Content' being destroyed
-[2018.11.08-10.52.17:327][456]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank_GameMode" FILE="F:/UnrealProjects/BattleTank/BattleTank/Content/Tank_GameMode.uasset" SILENT=true
-[2018.11.08-10.52.17:352][456]LogSavePackage: Moving 'F:/UnrealProjects/BattleTank/BattleTank/Saved/Tank_GameMode5A880E8446047A044084EC9070EB81DE.tmp' to 'F:/UnrealProjects/BattleTank/BattleTank/Content/Tank_GameMode.uasset'
-[2018.11.08-10.52.17:356][456]Cmd: MAP LOAD FILE="F:/UnrealProjects/BattleTank/BattleTank/Content/BattleGround.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.11.08-10.52.17:356][456]LightingResults: New page: Lighting Build
-[2018.11.08-10.52.17:357][456]LoadErrors: New page: Loading map: BattleGround.umap
-[2018.11.08-10.52.17:357][456]MapCheck: New page: Map Check
-[2018.11.08-10.52.17:357][456]LightingResults: New page: Lighting Build
-[2018.11.08-10.52.18:077][456]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.11.08-10.52.18:167][456]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.11.08-10.52.18:357][456]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 189.189ms to complete.
-[2018.11.08-10.52.18:363][456]LogFileHelpers: Loading map 'BattleGround' took 1.008
-[2018.11.08-10.52.18:862][484]LogTemp: Repeating last play command: Selected Viewport
-[2018.11.08-10.52.18:884][484]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.11.08-10.52.18:885][484]PIE: New page: PIE session: BattleGround (Nov 9, 2018, 12:52:18 AM)
-[2018.11.08-10.52.18:885][484]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_BattleGround
-[2018.11.08-10.52.19:126][484]LogPlayLevel: PIE: StaticDuplicateObject took: (0.241555s)
-[2018.11.08-10.52.19:127][484]LogAIModule: Creating AISystem for world BattleGround
-[2018.11.08-10.52.19:127][484]LogPlayLevel: PIE: World Init took: (0.000918s)
-[2018.11.08-10.52.19:127][484]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BattleGround.BattleGround to /Game/UEDPIE_0_BattleGround.BattleGround (0.242680s)
-[2018.11.08-10.52.19:217][484]LogInit: XAudio2 using '3 - DELL U2414H (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.11.08-10.52.19:245][484]LogInit: FAudioDevice initialized.
-[2018.11.08-10.52.19:282][484]LogLoad: Game class is 'Tank_GameMode_C'
-[2018.11.08-10.52.19:289][484]LogWorld: Bringing World /Game/UEDPIE_0_BattleGround.BattleGround up for play (max tick rate 0) at 2018.11.08-17.52.19
-[2018.11.08-10.52.19:290][484]LogWorld: Bringing up level for play took: 0.005466
-[2018.11.08-10.52.19:306][484]PIE: Play in editor start time for /Game/UEDPIE_0_BattleGround 1.408
-[2018.11.08-10.52.30:881][289]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.08-10.52.36:200][697]Cmd: SELECT NONE
-[2018.11.08-10.52.49:292][ 63]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.11.08-10.52.49:325][ 63]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.11.08-10.52.49:359][ 63]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.11.08-10.52.49:397][ 67]LogPlayLevel: Display: Destroying online subsystem :Context_6
-[2018.11.08-10.52.54:040][558]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Tank_GameMode.Tank_GameMode
-[2018.11.08-10.52.54:438][558]LogTabManager: Warning: Cannot spawn tab because no spawner is registered for 'CompilerResults'
-[2018.11.08-10.52.57:998][974]LogSlate: Window 'CompilerResults' being destroyed
+[2018.11.09-04.16.43:012][  0]LogInit: Selected Device Profile: [Windows]
+[2018.11.09-04.16.43:012][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.11.09-04.16.43:088][  0]LogHAL: Display: Platform has ~ 16 GB [17087963136 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.11.09-04.16.43:088][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.11.09-04.16.43:088][  0]LogInit: Going up to parent DeviceProfile []
+[2018.11.09-04.16.43:119][  0]LogInit: Computer: DESKTOP-JJ2FPLO
+[2018.11.09-04.16.43:119][  0]LogInit: User: truon
+[2018.11.09-04.16.43:119][  0]LogInit: CPU Page size=4096, Cores=6
+[2018.11.09-04.16.43:119][  0]LogInit: High frequency timer resolution =3.222655 MHz
+[2018.11.09-04.16.43:120][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.11.09-04.16.43:120][  0]LogMemory: Platform Memory Stats for Windows
+[2018.11.09-04.16.43:120][  0]LogMemory: Process Physical Memory: 101.49 MB used, 101.49 MB peak
+[2018.11.09-04.16.43:120][  0]LogMemory: Process Virtual Memory: 85.74 MB used, 85.74 MB peak
+[2018.11.09-04.16.43:120][  0]LogMemory: Physical Memory: 8618.68 MB used,  7677.67 MB free, 16296.35 MB total
+[2018.11.09-04.16.43:120][  0]LogMemory: Virtual Memory: 4657.16 MB used,  7677.67 MB free, 134217728.00 MB total
+[2018.11.09-04.16.44:119][  0]LogInit: Using OS detected language (en-US).
+[2018.11.09-04.16.44:119][  0]LogInit: Using OS detected locale (en-US).
+[2018.11.09-04.16.44:136][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.11.09-04.16.45:059][  0]LogStreaming: Display: Took  0.940s to InitEngineTextLocalization.
+[2018.11.09-04.16.45:059][  0]LogInit: Setting process to per monitor DPI aware
+[2018.11.09-04.16.45:291][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.11.09-04.16.45:291][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.11.09-04.16.48:126][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.11.09-04.16.48:126][  0]LogD3D11RHI: D3D11 adapters:
+[2018.11.09-04.16.48:181][  0]LogD3D11RHI:    0. 'AMD Radeon R9 200 Series' (Feature Level 11_0)
+[2018.11.09-04.16.48:182][  0]LogD3D11RHI:       3052/0/8148 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
+[2018.11.09-04.16.48:188][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.11.09-04.16.48:188][  0]LogD3D11RHI:       0/0/8148 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.11.09-04.16.48:188][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.11.09-04.16.48:205][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.11.09-04.16.48:205][  0]LogD3D11RHI:     GPU DeviceId: 0x679a (for the marketing name, search the web for "GPU Device Id")
+[2018.11.09-04.16.48:205][  0]LogWindows: EnumDisplayDevices:
+[2018.11.09-04.16.48:206][  0]LogWindows:    0. 'AMD Radeon R9 200 Series' (P:1 D:1)
+[2018.11.09-04.16.48:207][  0]LogWindows:    1. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2018.11.09-04.16.48:207][  0]LogWindows:    2. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2018.11.09-04.16.48:208][  0]LogWindows:    3. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2018.11.09-04.16.48:209][  0]LogWindows:    4. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2018.11.09-04.16.48:210][  0]LogWindows:    5. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2018.11.09-04.16.48:211][  0]LogWindows:    6. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2018.11.09-04.16.48:211][  0]LogWindows: DebugString: FoundDriverCount:7 
+[2018.11.09-04.16.48:212][  0]LogD3D11RHI:     Adapter Name: AMD Radeon R9 200 Series
+[2018.11.09-04.16.48:212][  0]LogD3D11RHI:   Driver Version: Adrenalin 18.8.2 (internal:24.20.13011.1009, unified:24.20.13011.1009)
+[2018.11.09-04.16.48:212][  0]LogD3D11RHI:      Driver Date: 8-27-2018
+[2018.11.09-04.16.48:212][  0]LogRHI: Texture pool is 2136 MB (70% of 3052 MB)
+[2018.11.09-04.16.48:278][  0]LogD3D11RHI: Async texture creation enabled
+[2018.11.09-04.16.48:295][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2018.11.09-04.16.48:297][  0]LogShaderCompilers: Guid format shader working directory is 7 characters bigger than the processId version (F:/UnrealProjects/BattleTank/BattleTank/Intermediate/Shaders/WorkingDirectory/5600/).
+[2018.11.09-04.16.48:297][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/truon/AppData/Local/Temp/UnrealShaderWorkingDir/AAF6B74E4F0C4ADB39E50986EDF6F385/'.
+[2018.11.09-04.16.49:235][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.11.09-04.16.49:307][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.11.09-04.16.49:365][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.11.09-04.16.49:431][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.11.09-04.16.49:491][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.11.09-04.16.49:535][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.11.09-04.16.49:568][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.11.09-04.16.49:605][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.11.09-04.16.49:639][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.11.09-04.16.49:807][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.09-04.16.49:807][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.09-04.16.49:807][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.09-04.16.49:807][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.09-04.16.49:807][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.09-04.16.49:807][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.09-04.16.49:807][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.09-04.16.49:807][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.09-04.16.49:807][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.09-04.16.49:807][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.09-04.16.49:807][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.09-04.16.49:807][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.09-04.16.49:807][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.09-04.16.49:807][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.09-04.16.49:807][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.09-04.16.49:807][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.09-04.16.49:807][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.09-04.16.49:807][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.09-04.16.49:852][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.11.09-04.16.50:117][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.11.09-04.16.50:117][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.11.09-04.16.50:210][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.11.09-04.16.50:210][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.11.09-04.16.50:301][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.11.09-04.16.50:343][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.11.09-04.16.50:372][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.11.09-04.16.50:431][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.11.09-04.16.50:452][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.11.09-04.16.50:452][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.11.09-04.16.51:335][  0]LogXGEController: Cleaning working directory: C:/Users/truon/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.11.09-04.16.51:336][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.11.09-04.16.51:336][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.11.09-04.16.51:336][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.11.09-04.16.54:411][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.11.09-04.16.54:810][  0]LogDerivedDataCache: Loaded boot cache 0.40s 71MB C:/Users/truon/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.11.09-04.16.54:810][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/truon/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.11.09-04.16.54:810][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file F:/UnrealProjects/BattleTank/BattleTank/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.11.09-04.16.54:810][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.11.09-04.16.54:810][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file F:/UnrealProjects/BattleTank/BattleTank/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.11.09-04.16.54:810][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.11.09-04.16.54:890][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.11.09-04.16.54:903][  0]LogDerivedDataCache: Using Local data cache path C:/Users/truon/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.11.09-04.16.54:903][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.11.09-04.16.54:903][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.11.09-04.16.54:954][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.11.09-04.16.54:956][  0]LogSlate: Using FreeType 2.6.0
+[2018.11.09-04.16.55:088][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.11.09-04.16.55:810][  0]LogAssetRegistry: FAssetRegistry took 0.0302 seconds to start up
+[2018.11.09-04.16.56:365][  0]LogInit: Selected Device Profile: [Windows]
+[2018.11.09-04.17.05:653][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.11.09-04.17.08:861][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.11.09-04.17.08:861][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.11.09-04.17.08:862][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.11.09-04.17.08:862][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.11.09-04.17.09:900][  0]LogNetVersion: BattleTank 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 486398009)
+[2018.11.09-04.17.30:827][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.204607 seconds
+[2018.11.09-04.17.30:835][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.11.09-04.17.30:835][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2018.11.09-04.17.30:835][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.11.09-04.17.40:243][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.11.09-04.17.40:295][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.11.09-04.17.41:570][  0]SourceControl: Source control is disabled
+[2018.11.09-04.17.41:592][  0]SourceControl: Source control is disabled
+[2018.11.09-04.17.41:679][  0]SourceControl: Source control is disabled
+[2018.11.09-04.17.41:716][  0]SourceControl: Source control is disabled
+[2018.11.09-04.17.43:523][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.11.09-04.17.43:994][  0]LogOcInput: OculusInput pre-init called
+[2018.11.09-04.17.44:540][  0]LogEngine: Initializing Engine...
+[2018.11.09-04.17.44:541][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.11.09-04.17.44:545][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.11.09-04.17.44:545][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.11.09-04.17.44:545][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.11.09-04.17.44:545][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.11.09-04.17.45:279][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.11.09-04.17.45:487][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.11.09-04.17.45:530][  0]LogInit: XAudio2 using '3 - DELL U2414H (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.09-04.17.45:550][  0]LogInit: FAudioDevice initialized.
+[2018.11.09-04.17.45:551][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.11.09-04.17.45:717][  0]LogDerivedDataCache: Saved boot cache 0.17s 71MB C:/Users/truon/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.11.09-04.17.45:724][  0]LogInit: Texture streaming: Enabled
+[2018.11.09-04.17.45:881][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.11.09-04.17.45:958][  0]LogInit: Transaction tracking system initialized
+[2018.11.09-04.17.46:146][  0]BlueprintLog: New page: Editor Load
+[2018.11.09-04.17.47:269][  0]LocalizationService: Localization service is disabled
+[2018.11.09-04.17.51:825][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.11.09-04.17.51:825][  0]LogCook: Display: Mobile HDR setting 1
+[2018.11.09-04.17.51:826][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.11.09-04.17.51:826][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.11.09-04.17.51:826][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.11.09-04.17.51:826][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.11.09-04.17.51:826][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.11.09-04.17.52:817][  0]LogFileCache: Scanning file cache for directory 'F:/UnrealProjects/BattleTank/BattleTank/Content/' took 0.02s
+[2018.11.09-04.17.55:284][  0]SourceControl: Source control is disabled
+[2018.11.09-04.17.55:284][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.11.09-04.17.55:326][  0]LightingResults: New page: Lighting Build
+[2018.11.09-04.17.55:339][  0]MapCheck: New page: Map Check
+[2018.11.09-04.17.55:339][  0]LightingResults: New page: Lighting Build
+[2018.11.09-04.17.56:104][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2018.11.09-04.17.56:176][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.11.09-04.17.56:231][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.11.09-04.17.57:271][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 1,040.21ms to complete.
+[2018.11.09-04.17.57:272][  0]LogFileHelpers: Loading map 'Template_Default' took 1.987
+[2018.11.09-04.17.57:566][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.09-04.17.57:588][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.09-04.17.57:600][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.09-04.17.57:610][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.09-04.17.57:702][  0]LogCollectionManager: Loaded 0 collections in 0.010035 seconds
+[2018.11.09-04.17.57:754][  0]LogFileCache: Scanning file cache for directory 'F:/UnrealProjects/BattleTank/BattleTank/Saved/Collections/' took 0.01s
+[2018.11.09-04.17.57:754][  0]LogFileCache: Scanning file cache for directory 'F:/UnrealProjects/BattleTank/BattleTank/Content/Developers/truon/Collections/' took 0.01s
+[2018.11.09-04.17.57:754][  0]LogFileCache: Scanning file cache for directory 'F:/UnrealProjects/BattleTank/BattleTank/Content/Collections/' took 0.00s
+[2018.11.09-04.17.57:754][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.11.09-04.17.57:784][  0]LogContentBrowser: Native class hierarchy populated in 0.0287 seconds. Added 2576 classes and 606 folders.
+[2018.11.09-04.17.57:801][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2018.11.09-04.17.58:755][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0015 seconds. Added 0 classes and 0 folders.
+[2018.11.09-04.17.58:818][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0012 seconds. Added 1 classes and 2 folders.
+[2018.11.09-04.17.59:037][  0]LogDirectoryWatcher: Warning: Failed to begin reading directory changes for F:/UnrealProjects/BattleTank/BattleTank/Plugins/. Error: The system cannot find the file specified. (0x00000002)
+[2018.11.09-04.18.01:340][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.11.09-04.18.01:449][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.BattleTank
+[2018.11.09-04.18.01:449][  0]LogTemp: CWD: D:\Program Files (x86)\Unreal Engine\UE_4.20\Engine\Binaries\DotNET\IOS
+[2018.11.09-04.18.01:449][  0]LogTemp: Initial Dir: D:\Program Files (x86)\Unreal Engine\UE_4.20
+[2018.11.09-04.18.01:449][  0]LogTemp: Env CWD: D:\Program Files (x86)\Unreal Engine\UE_4.20\Engine\Binaries\DotNET\IOS
+[2018.11.09-04.18.01:449][  0]LogTemp: BranchPath = DESKTOP-JJ2FPLO/D/Program Files (x86)/Unreal Engine/UE_4.20/Engine/Binaries --- GameBranchPath = DESKTOP-JJ2FPLO/D/Program Files (x86)/Unreal Engine/UE_4.20/Engine/Binaries
+[2018.11.09-04.18.01:449][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\truon\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.11.09-04.18.01:449][  0]LogSlate: Took 0.017273 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.11.09-04.18.01:475][  0]LogSlate: Took 0.022215 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.11.09-04.18.01:491][  0]LogSlate: Took 0.013559 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.11.09-04.18.01:638][  0]LogRenderer: Reallocating scene render targets to support 1300x628 Format 9 NumSamples 1 (Frame:1).
+[2018.11.09-04.18.01:818][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.11.09-04.18.01:818][  0]LogLoad: (Engine Initialization) Total time: 107.27 seconds
+[2018.11.09-04.18.01:818][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.11.09-04.18.01:859][  0]LogContentStreaming: Texture pool size now 600 MB
+[2018.11.09-04.18.01:949][  0]LogSlate: Took 0.016125 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.11.09-04.18.02:220][  1]LogAssetRegistry: Asset discovery search completed in 66.4399 seconds
+[2018.11.09-04.18.02:225][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.11.09-04.18.02:226][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000262 seconds (updated 0 objects)
+[2018.11.09-04.18.03:492][  5]LogSlate: Took 0.000803 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.11.09-04.23.15:113][ 96]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.09-04.23.21:007][788]LogAssetEditorManager: Opening Asset editor for Class /Script/BattleTank.BattleTankGameModeBase
+[2018.11.09-04.26.54:448][951]LogAIModule: Creating AISystem for world BattleGround
+[2018.11.09-04.26.55:675][951]LogAssetEditorManager: Opening Asset editor for World /Game/BattleGround.BattleGround
+[2018.11.09-04.26.55:736][951]Cmd: MAP LOAD FILE="F:/UnrealProjects/BattleTank/BattleTank/Content/BattleGround.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.11.09-04.26.55:736][951]LightingResults: New page: Lighting Build
+[2018.11.09-04.26.55:737][951]LoadErrors: New page: Loading map: BattleGround.umap
+[2018.11.09-04.26.55:738][951]MapCheck: New page: Map Check
+[2018.11.09-04.26.55:738][951]LightingResults: New page: Lighting Build
+[2018.11.09-04.26.56:776][951]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.11.09-04.26.56:844][951]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.11.09-04.26.56:936][951]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 92.559ms to complete.
+[2018.11.09-04.26.56:937][951]LogFileHelpers: Loading map 'BattleGround' took 1.201
+[2018.11.09-04.35.17:329][859]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Tank/TankPlayerController_BP.TankPlayerController_BP
+[2018.11.09-04.35.18:613][859]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 116 classes and 0 folders.
+[2018.11.09-04.35.23:543][ 16]LogSlate: Window 'TankPlayerController_BP' being destroyed
+[2018.11.09-04.35.24:909][135]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Tank/TankPlayerController_BP.TankPlayerController_BP
+[2018.11.09-04.35.25:539][135]LogSlate: Took 0.019534 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.11.09-04.35.34:503][146]LogSlate: Window 'TankPlayerController_BP' being destroyed
+[2018.11.09-04.35.42:025][ 26]LogSlate: Took 0.009801 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.11.09-04.36.09:285][350]LogLinker: Warning: Can't find file '/Game/Tank/tank_green_002'
+[2018.11.09-04.36.09:286][350]LogLinker: Warning: Can't find file for asset '/Game/Tank/tank_green_002' while loading F:/UnrealProjects/BattleTank/BattleTank/Content/Tank/tank_fbx_Barrel.uasset.
+[2018.11.09-04.36.09:286][350]LoadErrors: Error: /Game/Tank/tank_fbx_Barrel : Can't find file for asset. /Game/Tank/tank_green_002
+[2018.11.09-04.36.09:286][350]LogLinker: Warning: Can't find file '/Game/Tank/tank_green_002'
+[2018.11.09-04.36.09:287][350]LogLinker: Warning: Can't find file for asset '/Game/Tank/tank_green_002' while loading F:/UnrealProjects/BattleTank/BattleTank/Content/Tank/tank_fbx_Barrel.uasset.
+[2018.11.09-04.36.09:357][350]LogLinker: Warning: Can't find file '/Game/Tank/track_001'
+[2018.11.09-04.36.09:357][350]LogLinker: Warning: Can't find file for asset '/Game/Tank/track_001' while loading F:/UnrealProjects/BattleTank/BattleTank/Content/Tank/tank_fbx_Track.uasset.
+[2018.11.09-04.36.09:357][350]LoadErrors: Error: /Game/Tank/tank_fbx_Track : Can't find file for asset. /Game/Tank/track_001
+[2018.11.09-04.36.09:358][350]LogLinker: Warning: Can't find file '/Game/Tank/track_001'
+[2018.11.09-04.36.09:358][350]LogLinker: Warning: Can't find file for asset '/Game/Tank/track_001' while loading F:/UnrealProjects/BattleTank/BattleTank/Content/Tank/tank_fbx_Track.uasset.
+[2018.11.09-04.36.09:422][350]LogLinker: Warning: Can't find file '/Game/Tank/track_001'
+[2018.11.09-04.36.09:422][350]LoadErrors: Failed to load /Game/Tank/track_001.track_001 Referenced by tank_fbx_Track
+[2018.11.09-04.36.09:422][350]LogLinker: Warning: Can't find file for asset '/Game/Tank/track_001' while loading NULL.
+[2018.11.09-04.36.09:423][350]LogLinker: Warning: Can't find file '/Game/Tank/track_001'
+[2018.11.09-04.36.09:423][350]LogLinker: Warning: Can't find file for asset '/Game/Tank/track_001' while loading NULL.
+[2018.11.09-04.36.09:425][350]LogLinker: Warning: Can't find file '/Game/Tank/tank_green_002'
+[2018.11.09-04.36.09:425][350]LoadErrors: Failed to load /Game/Tank/tank_green_002.tank_green_002 Referenced by tank_fbx_Barrel
+[2018.11.09-04.36.09:425][350]LogLinker: Warning: Can't find file for asset '/Game/Tank/tank_green_002' while loading NULL.
+[2018.11.09-04.36.09:426][350]LogLinker: Warning: Can't find file '/Game/Tank/tank_green_002'
+[2018.11.09-04.36.09:426][350]LogLinker: Warning: Can't find file for asset '/Game/Tank/tank_green_002' while loading NULL.
+[2018.11.09-04.36.09:657][350]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Tank/Tank_BP.Tank_BP
+[2018.11.09-04.37.33:796][202]Candidate modules for hot reload:
+[2018.11.09-04.37.33:796][202]  BattleTank
+[2018.11.09-04.37.33:797][202]Launching UnrealBuildTool... [D:/Program Files (x86)/Unreal Engine/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BattleTank,1529 Win64 Development -TargetType=Editor -Project="F:/UnrealProjects/BattleTank/BattleTank/BattleTank.uproject" -canskiplink "F:/UnrealProjects/BattleTank/BattleTank/BattleTank.uproject" ]
+[2018.11.09-04.37.33:802][202]Warning: Starting HotReload took  0.1s.
+[2018.11.09-04.39.58:614][739]CompilerResultsLog: New page: Compilation - Nov 9, 2018, 6:39:58 PM
+[2018.11.09-04.39.58:626][739]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.11.09-04.39.58:626][739]CompilerResultsLog: Creating makefile for hot reloading BattleTankEditor (ini files are newer than UBTMakefile)
+[2018.11.09-04.39.58:626][739]CompilerResultsLog: Compiling game modules for hot reload
+[2018.11.09-04.39.58:626][739]CompilerResultsLog: Using Visual Studio 2017 14.15.26726 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2018.11.09-04.39.58:626][739]CompilerResultsLog: Parsing headers for BattleTankEditor
+[2018.11.09-04.39.58:626][739]CompilerResultsLog:   Running UnrealHeaderTool "F:\UnrealProjects\BattleTank\BattleTank\BattleTank.uproject" "F:\UnrealProjects\BattleTank\BattleTank\Intermediate\Build\Win64\BattleTankEditor\Development\BattleTankEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.11.09-04.39.58:626][739]CompilerResultsLog: Reflection code generated for BattleTankEditor in 13.0969815 seconds
+[2018.11.09-04.39.58:626][739]CompilerResultsLog: Building 4 actions with 12 processes...
+[2018.11.09-04.39.58:626][739]CompilerResultsLog:   [1/4] TankPlayerController.cpp
+[2018.11.09-04.39.58:626][739]CompilerResultsLog:    F:\UnrealProjects\BattleTank\BattleTank\Source\BattleTank\TankPlayerController.cpp(8) : error C2059: syntax error: 'static_assert'
+[2018.11.09-04.39.58:626][739]CompilerResultsLog:    F:\UnrealProjects\BattleTank\BattleTank\Source\BattleTank\TankPlayerController.cpp(8) : error C2039: 'Waring': is not a member of 'ELogVerbosity'
+[2018.11.09-04.39.58:626][739]CompilerResultsLog:   D:\Program Files (x86)\Unreal Engine\UE_4.20\Engine\Source\Runtime\Core\Public\Logging/LogVerbosity.h(14): note: see declaration of 'ELogVerbosity'
+[2018.11.09-04.39.58:626][739]CompilerResultsLog:    F:\UnrealProjects\BattleTank\BattleTank\Source\BattleTank\TankPlayerController.cpp(8) : error C2065: 'Waring': undeclared identifier
+[2018.11.09-04.39.58:626][739]CompilerResultsLog:    F:\UnrealProjects\BattleTank\BattleTank\Source\BattleTank\TankPlayerController.cpp(8) : error C2143: syntax error: missing ')' before ','
+[2018.11.09-04.39.58:626][739]CompilerResultsLog:    F:\UnrealProjects\BattleTank\BattleTank\Source\BattleTank\TankPlayerController.cpp(8) : error C3861: 'UE_LOG_EXPAND_IS_FATAL_Waring': identifier not found
+[2018.11.09-04.39.58:626][739]CompilerResultsLog:    F:\UnrealProjects\BattleTank\BattleTank\Source\BattleTank\TankPlayerController.cpp(8) : error C2059: syntax error: 'if'
+[2018.11.09-04.39.58:626][739]CompilerResultsLog:    F:\UnrealProjects\BattleTank\BattleTank\Source\BattleTank\TankPlayerController.cpp(8) : error C2059: syntax error: ')'
+[2018.11.09-04.39.58:626][739]CompilerResultsLog:    F:\UnrealProjects\BattleTank\BattleTank\Source\BattleTank\TankPlayerController.cpp(8) : error C2143: syntax error: missing ';' before '{'
+[2018.11.09-04.39.58:626][739]CompilerResultsLog:    F:\UnrealProjects\BattleTank\BattleTank\Source\BattleTank\TankPlayerController.cpp(8) : error C2059: syntax error: ';'
+[2018.11.09-04.39.58:626][739]CompilerResultsLog:    F:\UnrealProjects\BattleTank\BattleTank\Source\BattleTank\TankPlayerController.cpp(8) : error C2059: syntax error: ','
+[2018.11.09-04.39.58:626][739]CompilerResultsLog:    F:\UnrealProjects\BattleTank\BattleTank\Source\BattleTank\TankPlayerController.cpp(8) : error C2059: syntax error: '}'
+[2018.11.09-04.39.58:626][739]CompilerResultsLog:    F:\UnrealProjects\BattleTank\BattleTank\Source\BattleTank\TankPlayerController.cpp(9) : error C2059: syntax error: '}'
+[2018.11.09-04.39.58:626][739]CompilerResultsLog:    F:\UnrealProjects\BattleTank\BattleTank\Source\BattleTank\TankPlayerController.cpp(9) : error C2143: syntax error: missing ';' before '}'
+[2018.11.09-04.39.58:626][739]CompilerResultsLog:    F:\UnrealProjects\BattleTank\BattleTank\Source\BattleTank\TankPlayerController.cpp(13) : error C2143: syntax error: missing ';' before '{'
+[2018.11.09-04.39.58:626][739]CompilerResultsLog:    F:\UnrealProjects\BattleTank\BattleTank\Source\BattleTank\TankPlayerController.cpp(13) : error C2447: '{': missing function header (old-style formal list?)
+[2018.11.09-04.39.58:626][739]CompilerResultsLog:   [2/4] TankPlayerController.gen.cpp
+[2018.11.09-04.39.58:626][739]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: F:\UnrealProjects\BattleTank\BattleTank\Binaries\Win64\UE4Editor-BattleTank-1529.dll
+[2018.11.09-04.39.58:626][739]CompilerResultsLog:        (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
+[2018.11.09-04.39.58:626][739]CompilerResultsLog: Total build time: 144.06 seconds (Parallel executor: 0.00 seconds)
+[2018.11.09-04.39.58:627][739]LogMainFrame: MainFrame: Module compiling took 144.917 seconds
+[2018.11.09-04.39.58:629][739]Warning: HotReload failed, recompile failed
+[2018.11.09-04.41.03:935][574]Candidate modules for hot reload:
+[2018.11.09-04.41.03:935][574]  BattleTank
+[2018.11.09-04.41.03:935][574]Launching UnrealBuildTool... [D:/Program Files (x86)/Unreal Engine/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BattleTank,4900 Win64 Development -TargetType=Editor -Project="F:/UnrealProjects/BattleTank/BattleTank/BattleTank.uproject" -canskiplink "F:/UnrealProjects/BattleTank/BattleTank/BattleTank.uproject" ]
+[2018.11.09-04.41.03:937][574]Warning: Starting HotReload took  0.0s.
+[2018.11.09-04.41.10:706][640]CompilerResultsLog: New page: Compilation - Nov 9, 2018, 6:41:10 PM
+[2018.11.09-04.41.10:706][640]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.11.09-04.41.10:706][640]CompilerResultsLog: Compiling game modules for hot reload
+[2018.11.09-04.41.10:706][640]CompilerResultsLog: Building 3 actions with 12 processes...
+[2018.11.09-04.41.10:706][640]CompilerResultsLog:   [1/3] TankPlayerController.cpp
+[2018.11.09-04.41.10:706][640]CompilerResultsLog:    F:\UnrealProjects\BattleTank\BattleTank\Source\BattleTank\TankPlayerController.cpp(8) : error C2039: 'Waring': is not a member of 'ELogVerbosity'
+[2018.11.09-04.41.10:706][640]CompilerResultsLog:   D:\Program Files (x86)\Unreal Engine\UE_4.20\Engine\Source\Runtime\Core\Public\Logging/LogVerbosity.h(14): note: see declaration of 'ELogVerbosity'
+[2018.11.09-04.41.10:706][640]CompilerResultsLog:    F:\UnrealProjects\BattleTank\BattleTank\Source\BattleTank\TankPlayerController.cpp(8) : error C2065: 'Waring': undeclared identifier
+[2018.11.09-04.41.10:706][640]CompilerResultsLog:    F:\UnrealProjects\BattleTank\BattleTank\Source\BattleTank\TankPlayerController.cpp(8) : error C2143: syntax error: missing ')' before ','
+[2018.11.09-04.41.10:706][640]CompilerResultsLog:    F:\UnrealProjects\BattleTank\BattleTank\Source\BattleTank\TankPlayerController.cpp(8) : error C3861: 'UE_LOG_EXPAND_IS_FATAL_Waring': identifier not found
+[2018.11.09-04.41.10:707][640]CompilerResultsLog:    F:\UnrealProjects\BattleTank\BattleTank\Source\BattleTank\TankPlayerController.cpp(8) : error C2059: syntax error: 'if'
+[2018.11.09-04.41.10:707][640]CompilerResultsLog:    F:\UnrealProjects\BattleTank\BattleTank\Source\BattleTank\TankPlayerController.cpp(8) : error C2059: syntax error: ')'
+[2018.11.09-04.41.10:707][640]CompilerResultsLog:    F:\UnrealProjects\BattleTank\BattleTank\Source\BattleTank\TankPlayerController.cpp(8) : error C2143: syntax error: missing ';' before '{'
+[2018.11.09-04.41.10:707][640]CompilerResultsLog:    F:\UnrealProjects\BattleTank\BattleTank\Source\BattleTank\TankPlayerController.cpp(8) : error C2059: syntax error: ';'
+[2018.11.09-04.41.10:707][640]CompilerResultsLog:    F:\UnrealProjects\BattleTank\BattleTank\Source\BattleTank\TankPlayerController.cpp(8) : error C2059: syntax error: ','
+[2018.11.09-04.41.10:707][640]CompilerResultsLog:    F:\UnrealProjects\BattleTank\BattleTank\Source\BattleTank\TankPlayerController.cpp(8) : error C2059: syntax error: '}'
+[2018.11.09-04.41.10:707][640]CompilerResultsLog:    F:\UnrealProjects\BattleTank\BattleTank\Source\BattleTank\TankPlayerController.cpp(9) : error C2059: syntax error: '}'
+[2018.11.09-04.41.10:707][640]CompilerResultsLog:    F:\UnrealProjects\BattleTank\BattleTank\Source\BattleTank\TankPlayerController.cpp(9) : error C2143: syntax error: missing ';' before '}'
+[2018.11.09-04.41.10:707][640]CompilerResultsLog:    F:\UnrealProjects\BattleTank\BattleTank\Source\BattleTank\TankPlayerController.cpp(13) : error C2143: syntax error: missing ';' before '{'
+[2018.11.09-04.41.10:707][640]CompilerResultsLog:    F:\UnrealProjects\BattleTank\BattleTank\Source\BattleTank\TankPlayerController.cpp(13) : error C2447: '{': missing function header (old-style formal list?)
+[2018.11.09-04.41.10:707][640]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: F:\UnrealProjects\BattleTank\BattleTank\Binaries\Win64\UE4Editor-BattleTank-4900.dll
+[2018.11.09-04.41.10:707][640]CompilerResultsLog:        (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
+[2018.11.09-04.41.10:707][640]CompilerResultsLog: Total build time: 6.30 seconds (Parallel executor: 0.00 seconds)
+[2018.11.09-04.41.10:707][640]LogMainFrame: MainFrame: Module compiling took 6.778 seconds
+[2018.11.09-04.41.10:707][640]Warning: HotReload failed, recompile failed
+[2018.11.09-04.41.26:947][450]Candidate modules for hot reload:
+[2018.11.09-04.41.26:947][450]  BattleTank
+[2018.11.09-04.41.26:947][450]Launching UnrealBuildTool... [D:/Program Files (x86)/Unreal Engine/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BattleTank,6449 Win64 Development -TargetType=Editor -Project="F:/UnrealProjects/BattleTank/BattleTank/BattleTank.uproject" -canskiplink "F:/UnrealProjects/BattleTank/BattleTank/BattleTank.uproject" ]
+[2018.11.09-04.41.26:949][450]Warning: Starting HotReload took  0.0s.
+[2018.11.09-04.41.36:040][522]CompilerResultsLog: New page: Compilation - Nov 9, 2018, 6:41:36 PM
+[2018.11.09-04.41.36:041][522]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.11.09-04.41.36:041][522]CompilerResultsLog: Compiling game modules for hot reload
+[2018.11.09-04.41.36:041][522]CompilerResultsLog: Building 3 actions with 12 processes...
+[2018.11.09-04.41.36:041][522]CompilerResultsLog:   [1/3] TankPlayerController.cpp
+[2018.11.09-04.41.36:041][522]CompilerResultsLog:   [2/3] UE4Editor-BattleTank-6449.lib
+[2018.11.09-04.41.36:041][522]CompilerResultsLog:      Creating library F:\UnrealProjects\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\UE4Editor-BattleTank-6449.lib and object F:\UnrealProjects\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\UE4Editor-BattleTank-6449.exp
+[2018.11.09-04.41.36:041][522]CompilerResultsLog:   [3/3] UE4Editor-BattleTank-6449.dll
+[2018.11.09-04.41.36:041][522]CompilerResultsLog:      Creating library F:\UnrealProjects\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\UE4Editor-BattleTank-6449.suppressed.lib and object F:\UnrealProjects\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\UE4Editor-BattleTank-6449.suppressed.exp
+[2018.11.09-04.41.36:041][522]CompilerResultsLog: Total build time: 8.62 seconds (Parallel executor: 5.45 seconds)
+[2018.11.09-04.41.36:041][522]LogMainFrame: MainFrame: Module compiling took 9.101 seconds
+[2018.11.09-04.41.36:191][522]LogContentBrowser: Native class hierarchy updated for 'BattleTank' in 0.0013 seconds. Added 4 classes and 3 folders.
+[2018.11.09-04.41.36:198][522]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.11.09-04.41.36:963][522]LogContentBrowser: Native class hierarchy populated in 0.0156 seconds. Added 2577 classes and 608 folders.
+[2018.11.09-04.41.37:266][522]Display: HotReload took 10.3s.
+[2018.11.09-04.46.19:386][444]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.09-04.46.19:457][444]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.09-04.46.19:528][444]PIE: New page: PIE session: BattleGround (Nov 9, 2018, 6:46:19 PM)
+[2018.11.09-04.46.19:538][444]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_BattleGround
+[2018.11.09-04.46.19:995][444]LogPlayLevel: PIE: StaticDuplicateObject took: (0.457429s)
+[2018.11.09-04.46.19:998][444]LogAIModule: Creating AISystem for world BattleGround
+[2018.11.09-04.46.20:006][444]LogPlayLevel: PIE: World Init took: (0.010817s)
+[2018.11.09-04.46.20:015][444]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BattleGround.BattleGround to /Game/UEDPIE_0_BattleGround.BattleGround (0.477074s)
+[2018.11.09-04.46.20:198][444]LogInit: XAudio2 using '3 - DELL U2414H (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.09-04.46.20:232][444]LogInit: FAudioDevice initialized.
+[2018.11.09-04.46.20:367][444]LogLoad: Game class is 'Tank_GameMode_C'
+[2018.11.09-04.46.20:452][444]LogWorld: Bringing World /Game/UEDPIE_0_BattleGround.BattleGround up for play (max tick rate 0) at 2018.11.09-11.46.20
+[2018.11.09-04.46.20:467][444]LogWorld: Bringing up level for play took: 0.019577
+[2018.11.09-04.46.20:628][444]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0015 seconds. Added 10 classes and 0 folders.
+[2018.11.09-04.46.20:654][444]LogTemp: Warning: Player Controller Begin Play
+[2018.11.09-04.46.20:680][444]PIE: Play in editor start time for /Game/UEDPIE_0_BattleGround 1.073
+[2018.11.09-04.46.21:168][458]LogSlate: Took 0.026742 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2018.11.09-04.46.33:400][420]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.09-04.46.33:465][420]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.09-04.46.33:528][420]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.09-04.46.33:586][421]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2018.11.09-04.47.39:516][747]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.09-04.47.39:606][753]Candidate modules for hot reload:
+[2018.11.09-04.47.39:607][753]  BattleTank
+[2018.11.09-04.47.39:607][753]Launching UnrealBuildTool... [D:/Program Files (x86)/Unreal Engine/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BattleTank,2112 Win64 Development -TargetType=Editor -Project="F:/UnrealProjects/BattleTank/BattleTank/BattleTank.uproject" -canskiplink "F:/UnrealProjects/BattleTank/BattleTank/BattleTank.uproject" ]
+[2018.11.09-04.47.39:609][753]Warning: Starting HotReload took  0.0s.
+[2018.11.09-04.47.46:011][848]CompilerResultsLog: New page: Compilation - Nov 9, 2018, 6:47:46 PM
+[2018.11.09-04.47.46:011][848]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.11.09-04.47.46:011][848]CompilerResultsLog: Compiling game modules for hot reload
+[2018.11.09-04.47.46:012][848]CompilerResultsLog: Building 3 actions with 12 processes...
+[2018.11.09-04.47.46:012][848]CompilerResultsLog:   [1/3] TankPlayerController.cpp
+[2018.11.09-04.47.46:012][848]CompilerResultsLog:   [2/3] UE4Editor-BattleTank-2112.lib
+[2018.11.09-04.47.46:012][848]CompilerResultsLog:      Creating library F:\UnrealProjects\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\UE4Editor-BattleTank-2112.lib and object F:\UnrealProjects\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\UE4Editor-BattleTank-2112.exp
+[2018.11.09-04.47.46:012][848]CompilerResultsLog:   [3/3] UE4Editor-BattleTank-2112.dll
+[2018.11.09-04.47.46:012][848]CompilerResultsLog:      Creating library F:\UnrealProjects\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\UE4Editor-BattleTank-2112.suppressed.lib and object F:\UnrealProjects\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\UE4Editor-BattleTank-2112.suppressed.exp
+[2018.11.09-04.47.46:013][848]CompilerResultsLog: Total build time: 6.05 seconds (Parallel executor: 2.43 seconds)
+[2018.11.09-04.47.46:013][848]LogMainFrame: MainFrame: Module compiling took 6.412 seconds
+[2018.11.09-04.47.46:071][848]LogContentBrowser: Native class hierarchy updated for 'BattleTank' in 0.0004 seconds. Added 4 classes and 3 folders.
+[2018.11.09-04.47.46:077][848]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.11.09-04.47.46:401][848]LogContentBrowser: Native class hierarchy populated in 0.0083 seconds. Added 2577 classes and 608 folders.
+[2018.11.09-04.47.46:401][848]Display: HotReload took  6.8s.
+[2018.11.09-04.47.48:837][938]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.09-04.47.48:864][938]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.09-04.47.48:865][938]PIE: New page: PIE session: BattleGround (Nov 9, 2018, 6:47:48 PM)
+[2018.11.09-04.47.48:865][938]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_BattleGround
+[2018.11.09-04.47.48:948][938]LogPlayLevel: PIE: StaticDuplicateObject took: (0.083300s)
+[2018.11.09-04.47.48:950][938]LogAIModule: Creating AISystem for world BattleGround
+[2018.11.09-04.47.48:952][938]LogPlayLevel: PIE: World Init took: (0.003159s)
+[2018.11.09-04.47.48:953][938]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BattleGround.BattleGround to /Game/UEDPIE_0_BattleGround.BattleGround (0.087762s)
+[2018.11.09-04.47.49:073][938]LogInit: XAudio2 using '3 - DELL U2414H (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.09-04.47.49:087][938]LogInit: FAudioDevice initialized.
+[2018.11.09-04.47.49:125][938]LogLoad: Game class is 'Tank_GameMode_C'
+[2018.11.09-04.47.49:131][938]LogWorld: Bringing World /Game/UEDPIE_0_BattleGround.BattleGround up for play (max tick rate 0) at 2018.11.09-11.47.49
+[2018.11.09-04.47.49:132][938]LogWorld: Bringing up level for play took: 0.005438
+[2018.11.09-04.47.49:149][938]LogTemp: Warning: Player Pawn &s
+[2018.11.09-04.47.49:149][938]PIE: Play in editor start time for /Game/UEDPIE_0_BattleGround -0.45
+[2018.11.09-04.47.53:508][228]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.09-04.47.53:550][228]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.09-04.47.53:608][228]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.09-04.47.53:714][229]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2018.11.09-04.48.51:703][686]Candidate modules for hot reload:
+[2018.11.09-04.48.51:703][686]  BattleTank
+[2018.11.09-04.48.51:703][686]Launching UnrealBuildTool... [D:/Program Files (x86)/Unreal Engine/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BattleTank,5433 Win64 Development -TargetType=Editor -Project="F:/UnrealProjects/BattleTank/BattleTank/BattleTank.uproject" -canskiplink "F:/UnrealProjects/BattleTank/BattleTank/BattleTank.uproject" ]
+[2018.11.09-04.48.51:706][686]Warning: Starting HotReload took  0.0s.
+[2018.11.09-04.48.58:499][824]CompilerResultsLog: New page: Compilation - Nov 9, 2018, 6:48:58 PM
+[2018.11.09-04.48.58:500][824]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.11.09-04.48.58:500][824]CompilerResultsLog: Compiling game modules for hot reload
+[2018.11.09-04.48.58:501][824]CompilerResultsLog: Building 3 actions with 12 processes...
+[2018.11.09-04.48.58:501][824]CompilerResultsLog:   [1/3] TankPlayerController.cpp
+[2018.11.09-04.48.58:501][824]CompilerResultsLog:   [2/3] UE4Editor-BattleTank-5433.lib
+[2018.11.09-04.48.58:502][824]CompilerResultsLog:      Creating library F:\UnrealProjects\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\UE4Editor-BattleTank-5433.lib and object F:\UnrealProjects\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\UE4Editor-BattleTank-5433.exp
+[2018.11.09-04.48.58:503][824]CompilerResultsLog:   [3/3] UE4Editor-BattleTank-5433.dll
+[2018.11.09-04.48.58:503][824]CompilerResultsLog:      Creating library F:\UnrealProjects\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\UE4Editor-BattleTank-5433.suppressed.lib and object F:\UnrealProjects\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\UE4Editor-BattleTank-5433.suppressed.exp
+[2018.11.09-04.48.58:504][824]CompilerResultsLog: Total build time: 6.16 seconds (Parallel executor: 2.31 seconds)
+[2018.11.09-04.48.58:504][824]LogMainFrame: MainFrame: Module compiling took 6.808 seconds
+[2018.11.09-04.48.58:604][824]LogContentBrowser: Native class hierarchy updated for 'BattleTank' in 0.0007 seconds. Added 4 classes and 3 folders.
+[2018.11.09-04.48.58:610][824]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.11.09-04.48.59:149][824]LogContentBrowser: Native class hierarchy populated in 0.0140 seconds. Added 2577 classes and 608 folders.
+[2018.11.09-04.48.59:149][824]Display: HotReload took  7.5s.
+[2018.11.09-04.49.01:500][872]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.09-04.49.01:525][872]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.09-04.49.01:525][872]PIE: New page: PIE session: BattleGround (Nov 9, 2018, 6:49:01 PM)
+[2018.11.09-04.49.01:525][872]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_BattleGround
+[2018.11.09-04.49.01:643][872]LogPlayLevel: PIE: StaticDuplicateObject took: (0.117748s)
+[2018.11.09-04.49.01:645][872]LogAIModule: Creating AISystem for world BattleGround
+[2018.11.09-04.49.01:646][872]LogPlayLevel: PIE: World Init took: (0.002611s)
+[2018.11.09-04.49.01:647][872]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BattleGround.BattleGround to /Game/UEDPIE_0_BattleGround.BattleGround (0.121477s)
+[2018.11.09-04.49.01:792][872]LogInit: XAudio2 using '3 - DELL U2414H (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.09-04.49.01:817][872]LogInit: FAudioDevice initialized.
+[2018.11.09-04.49.01:855][872]LogLoad: Game class is 'Tank_GameMode_C'
+[2018.11.09-04.49.01:861][872]LogWorld: Bringing World /Game/UEDPIE_0_BattleGround.BattleGround up for play (max tick rate 0) at 2018.11.09-11.49.01
+[2018.11.09-04.49.01:862][872]LogWorld: Bringing up level for play took: 0.005029
+[2018.11.09-04.49.01:878][872]LogTemp: Warning: Player Pawn Tank_BP_C_0
+[2018.11.09-04.49.01:878][872]PIE: Play in editor start time for /Game/UEDPIE_0_BattleGround 0.286
+[2018.11.09-04.49.27:118][ 98]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.09-04.49.27:161][ 98]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.09-04.49.27:212][ 98]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.09-04.49.27:282][ 99]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2018.11.09-04.51.09:737][576]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.09-04.51.09:811][581]Candidate modules for hot reload:
+[2018.11.09-04.51.09:811][581]  BattleTank
+[2018.11.09-04.51.09:811][581]Launching UnrealBuildTool... [D:/Program Files (x86)/Unreal Engine/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BattleTank,6786 Win64 Development -TargetType=Editor -Project="F:/UnrealProjects/BattleTank/BattleTank/BattleTank.uproject" -canskiplink "F:/UnrealProjects/BattleTank/BattleTank/BattleTank.uproject" ]
+[2018.11.09-04.51.09:814][581]Warning: Starting HotReload took  0.0s.
+[2018.11.09-04.51.17:818][683]CompilerResultsLog: New page: Compilation - Nov 9, 2018, 6:51:17 PM
+[2018.11.09-04.51.17:818][683]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.11.09-04.51.17:819][683]CompilerResultsLog: Compiling game modules for hot reload
+[2018.11.09-04.51.17:819][683]CompilerResultsLog: Building 3 actions with 12 processes...
+[2018.11.09-04.51.17:819][683]CompilerResultsLog:   [1/3] TankPlayerController.cpp
+[2018.11.09-04.51.17:819][683]CompilerResultsLog:   [2/3] UE4Editor-BattleTank-6786.lib
+[2018.11.09-04.51.17:819][683]CompilerResultsLog:      Creating library F:\UnrealProjects\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\UE4Editor-BattleTank-6786.lib and object F:\UnrealProjects\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\UE4Editor-BattleTank-6786.exp
+[2018.11.09-04.51.17:819][683]CompilerResultsLog:   [3/3] UE4Editor-BattleTank-6786.dll
+[2018.11.09-04.51.17:820][683]CompilerResultsLog:      Creating library F:\UnrealProjects\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\UE4Editor-BattleTank-6786.suppressed.lib and object F:\UnrealProjects\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\UE4Editor-BattleTank-6786.suppressed.exp
+[2018.11.09-04.51.17:820][683]CompilerResultsLog: Total build time: 7.62 seconds (Parallel executor: 3.02 seconds)
+[2018.11.09-04.51.17:820][683]LogMainFrame: MainFrame: Module compiling took 8.016 seconds
+[2018.11.09-04.51.17:909][683]LogContentBrowser: Native class hierarchy updated for 'BattleTank' in 0.0006 seconds. Added 4 classes and 3 folders.
+[2018.11.09-04.51.17:919][683]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.11.09-04.51.18:541][683]LogContentBrowser: Native class hierarchy populated in 0.0250 seconds. Added 2577 classes and 608 folders.
+[2018.11.09-04.51.18:542][683]Display: HotReload took  8.7s.
+[2018.11.09-04.51.26:951][962]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.09-04.51.26:978][962]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.09-04.51.26:978][962]PIE: New page: PIE session: BattleGround (Nov 9, 2018, 6:51:26 PM)
+[2018.11.09-04.51.26:978][962]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_BattleGround
+[2018.11.09-04.51.27:080][962]LogPlayLevel: PIE: StaticDuplicateObject took: (0.101532s)
+[2018.11.09-04.51.27:081][962]LogAIModule: Creating AISystem for world BattleGround
+[2018.11.09-04.51.27:081][962]LogPlayLevel: PIE: World Init took: (0.001235s)
+[2018.11.09-04.51.27:081][962]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BattleGround.BattleGround to /Game/UEDPIE_0_BattleGround.BattleGround (0.103029s)
+[2018.11.09-04.51.27:182][962]LogInit: XAudio2 using '3 - DELL U2414H (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.09-04.51.27:198][962]LogInit: FAudioDevice initialized.
+[2018.11.09-04.51.27:232][962]LogLoad: Game class is 'Tank_GameMode_C'
+[2018.11.09-04.51.27:238][962]LogWorld: Bringing World /Game/UEDPIE_0_BattleGround.BattleGround up for play (max tick rate 0) at 2018.11.09-11.51.27
+[2018.11.09-04.51.27:239][962]LogWorld: Bringing up level for play took: 0.005499
+[2018.11.09-04.51.27:255][962]LogTemp: Warning: Player Pawn Tank_BP_C_0
+[2018.11.09-04.51.27:255][962]PIE: Play in editor start time for /Game/UEDPIE_0_BattleGround -0.326
+[2018.11.09-04.51.35:887][627]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.09-04.51.35:931][627]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.09-04.51.35:999][627]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.09-04.51.36:050][628]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2018.11.09-04.51.37:192][700]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.09-04.51.37:297][706]Candidate modules for hot reload:
+[2018.11.09-04.51.37:297][706]  BattleTank
+[2018.11.09-04.51.37:298][706]Launching UnrealBuildTool... [D:/Program Files (x86)/Unreal Engine/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BattleTank,1777 Win64 Development -TargetType=Editor -Project="F:/UnrealProjects/BattleTank/BattleTank/BattleTank.uproject" -canskiplink "F:/UnrealProjects/BattleTank/BattleTank/BattleTank.uproject" ]
+[2018.11.09-04.51.37:300][706]Warning: Starting HotReload took  0.0s.
+[2018.11.09-04.51.42:451][131]CompilerResultsLog: New page: Compilation - Nov 9, 2018, 6:51:42 PM
+[2018.11.09-04.51.42:451][131]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.11.09-04.51.42:451][131]CompilerResultsLog: Compiling game modules for hot reload
+[2018.11.09-04.51.42:451][131]CompilerResultsLog: Target is up to date
+[2018.11.09-04.51.42:451][131]CompilerResultsLog: Total build time: 4.66 seconds (NoActionsToExecute executor: 0.00 seconds)
+[2018.11.09-04.51.42:451][131]LogMainFrame: MainFrame: Module compiling took 5.161 seconds
+[2018.11.09-04.51.42:724][131]LogContentBrowser: Native class hierarchy populated in 0.0099 seconds. Added 2577 classes and 608 folders.
+[2018.11.09-04.51.42:724][131]Display: HotReload took  5.4s.
+[2018.11.09-06.39.22:928][780]Running D:/Program Files (x86)/Unreal Engine/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe Win64 Development -TargetType=Editor -Project="F:/UnrealProjects/BattleTank/BattleTank/BattleTank.uproject" -invalidatemakefilesonly
+[2018.11.09-06.39.24:546][780]Invalidating makefiles only in this run.
+[2018.11.09-06.39.24:676][780]Candidate modules for hot reload:
+[2018.11.09-06.39.24:676][780]  BattleTank
+[2018.11.09-06.39.24:676][780]Launching UnrealBuildTool... [D:/Program Files (x86)/Unreal Engine/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BattleTank,6316 Win64 Development -TargetType=Editor -Project="F:/UnrealProjects/BattleTank/BattleTank/BattleTank.uproject" -canskiplink "F:/UnrealProjects/BattleTank/BattleTank/BattleTank.uproject" ]
+[2018.11.09-06.42.12:344][780]CompilerResultsLog: New page: Compilation - Nov 9, 2018, 8:42:12 PM
+[2018.11.09-06.42.12:345][780]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.11.09-06.42.12:345][780]CompilerResultsLog: Creating makefile for hot reloading BattleTankEditor (no existing makefile)
+[2018.11.09-06.42.12:346][780]CompilerResultsLog: Compiling game modules for hot reload
+[2018.11.09-06.42.12:346][780]CompilerResultsLog: Using Visual Studio 2017 14.15.26726 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2018.11.09-06.42.12:347][780]CompilerResultsLog: Parsing headers for BattleTankEditor
+[2018.11.09-06.42.12:347][780]CompilerResultsLog:   Running UnrealHeaderTool "F:\UnrealProjects\BattleTank\BattleTank\BattleTank.uproject" "F:\UnrealProjects\BattleTank\BattleTank\Intermediate\Build\Win64\BattleTankEditor\Development\BattleTankEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.11.09-06.42.12:349][780]CompilerResultsLog: Reflection code generated for BattleTankEditor in 12.4767379 seconds
+[2018.11.09-06.42.12:349][780]CompilerResultsLog: Building 5 actions with 12 processes...
+[2018.11.09-06.42.12:351][780]CompilerResultsLog:   [1/5] BattleTank.init.gen.cpp
+[2018.11.09-06.42.12:351][780]CompilerResultsLog:   [2/5] TankAIController.cpp
+[2018.11.09-06.42.12:352][780]CompilerResultsLog:   [3/5] TankAIController.gen.cpp
+[2018.11.09-06.42.12:352][780]CompilerResultsLog:   [4/5] UE4Editor-BattleTank-6316.lib
+[2018.11.09-06.42.12:352][780]CompilerResultsLog:      Creating library F:\UnrealProjects\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\UE4Editor-BattleTank-6316.lib and object F:\UnrealProjects\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\UE4Editor-BattleTank-6316.exp
+[2018.11.09-06.42.12:353][780]CompilerResultsLog:   [5/5] UE4Editor-BattleTank-6316.dll
+[2018.11.09-06.42.12:354][780]CompilerResultsLog:      Creating library F:\UnrealProjects\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\UE4Editor-BattleTank-6316.suppressed.lib and object F:\UnrealProjects\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\UE4Editor-BattleTank-6316.suppressed.exp
+[2018.11.09-06.42.12:355][780]CompilerResultsLog: Total build time: 167.42 seconds (Parallel executor: 147.60 seconds)
+[2018.11.09-06.42.12:356][780]LogMainFrame: MainFrame: Module compiling took 167.686 seconds
+[2018.11.09-06.42.12:851][780]LogClass: Could not find existing class TankAIController in package /Script/BattleTank for HotReload, assuming new class
+[2018.11.09-06.42.12:863][780]LogContentBrowser: Native class hierarchy updated for 'BattleTank' in 0.0009 seconds. Added 5 classes and 3 folders.
+[2018.11.09-06.42.12:868][780]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.11.09-06.42.13:413][780]LogContentBrowser: Native class hierarchy populated in 0.0146 seconds. Added 2578 classes and 608 folders.
+[2018.11.09-06.42.13:413][780]Display: HotReload took 168.8s.
+[2018.11.09-06.42.13:415][780]Warning: HotReload operation took 168.8s.
+[2018.11.09-06.42.13:800][780]LogSlate: Window 'Add C++ Class' being destroyed
+[2018.11.09-06.42.13:863][780]LogHotReload: New module detected: UE4Editor-BattleTank-6316.dll
+[2018.11.09-06.42.13:934][781]LogHotReload: Starting Hot-Reload from IDE
+[2018.11.09-06.42.14:080][781]LogContentBrowser: Native class hierarchy updated for 'BattleTank' in 0.0009 seconds. Added 5 classes and 3 folders.
+[2018.11.09-06.42.14:086][781]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.11.09-06.42.14:441][781]LogContentBrowser: Native class hierarchy populated in 0.0091 seconds. Added 2578 classes and 608 folders.
+[2018.11.09-06.42.14:446][781]Display: HotReload took  0.5s.
+[2018.11.09-07.29.28:051][641]LogAssetEditorManager: Opening Asset editor for Class /Script/BattleTank.TankAIController
+[2018.11.09-07.32.15:451][712]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.11.09-07.32.19:409][103]BlueprintLog: New page: Compile Tank_BP
+[2018.11.09-07.32.20:427][104]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/Tank_BP" FILE="F:/UnrealProjects/BattleTank/BattleTank/Content/Tank/Tank_BP.uasset" SILENT=true
+[2018.11.09-07.32.20:699][104]LogSavePackage: Moving 'F:/UnrealProjects/BattleTank/BattleTank/Saved/Tank_BPAEC37B1942792EBD8748008FD28CC3C6.tmp' to 'F:/UnrealProjects/BattleTank/BattleTank/Content/Tank/Tank_BP.uasset'
+[2018.11.09-07.32.28:808][634]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.09-07.32.32:997][746]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.09-07.32.33:096][750]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.09-07.32.33:147][750]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.09-07.32.33:147][750]PIE: New page: PIE session: BattleGround (Nov 9, 2018, 9:32:33 PM)
+[2018.11.09-07.32.33:148][750]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_BattleGround
+[2018.11.09-07.32.33:483][750]LogPlayLevel: PIE: StaticDuplicateObject took: (0.334384s)
+[2018.11.09-07.32.33:487][750]LogAIModule: Creating AISystem for world BattleGround
+[2018.11.09-07.32.33:488][750]LogPlayLevel: PIE: World Init took: (0.004726s)
+[2018.11.09-07.32.33:488][750]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BattleGround.BattleGround to /Game/UEDPIE_0_BattleGround.BattleGround (0.340359s)
+[2018.11.09-07.32.33:692][750]LogInit: XAudio2 using '3 - DELL U2414H (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.09-07.32.33:730][750]LogInit: FAudioDevice initialized.
+[2018.11.09-07.32.33:766][750]LogLoad: Game class is 'Tank_GameMode_C'
+[2018.11.09-07.32.33:775][750]LogWorld: Bringing World /Game/UEDPIE_0_BattleGround.BattleGround up for play (max tick rate 0) at 2018.11.09-14.32.33
+[2018.11.09-07.32.33:801][750]LogWorld: Bringing up level for play took: 0.032318
+[2018.11.09-07.32.33:821][750]LogTemp: Warning: Player Pawn Tank_BP_C_0
+[2018.11.09-07.32.33:822][750]PIE: Play in editor start time for /Game/UEDPIE_0_BattleGround 0.384
+[2018.11.09-07.33.21:552][691]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.09-07.33.21:600][691]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.09-07.33.21:678][691]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.09-07.33.21:757][692]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2018.11.09-07.33.47:830][306]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BattleGround" FILE="F:/UnrealProjects/BattleTank/BattleTank/Saved/Autosaves/Game/BattleGround_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2018.11.09-07.33.49:849][306]LogSavePackage: Moving 'F:/UnrealProjects/BattleTank/BattleTank/Saved/BattleGround_Auto1CA5FA50A4CD55BC84D5D02929ED73604.tmp' to 'F:/UnrealProjects/BattleTank/BattleTank/Saved/Autosaves/Game/BattleGround_Auto1.umap'
+[2018.11.09-07.33.49:871][306]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/BattleGround' took 2.114
+[2018.11.09-07.33.49:871][306]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.114
+[2018.11.09-07.34.36:327][445]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.09-07.34.37:498][523]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.09-07.34.37:521][523]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.09-07.34.37:522][523]PIE: New page: PIE session: BattleGround (Nov 9, 2018, 9:34:37 PM)
+[2018.11.09-07.34.37:522][523]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_BattleGround
+[2018.11.09-07.34.37:617][523]LogPlayLevel: PIE: StaticDuplicateObject took: (0.094085s)
+[2018.11.09-07.34.37:617][523]LogAIModule: Creating AISystem for world BattleGround
+[2018.11.09-07.34.37:618][523]LogPlayLevel: PIE: World Init took: (0.000880s)
+[2018.11.09-07.34.37:618][523]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BattleGround.BattleGround to /Game/UEDPIE_0_BattleGround.BattleGround (0.095558s)
+[2018.11.09-07.34.37:695][523]LogInit: XAudio2 using '3 - DELL U2414H (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.09-07.34.37:711][523]LogInit: FAudioDevice initialized.
+[2018.11.09-07.34.37:744][523]LogLoad: Game class is 'Tank_GameMode_C'
+[2018.11.09-07.34.37:751][523]LogWorld: Bringing World /Game/UEDPIE_0_BattleGround.BattleGround up for play (max tick rate 0) at 2018.11.09-14.34.37
+[2018.11.09-07.34.37:752][523]LogWorld: Bringing up level for play took: 0.006394
+[2018.11.09-07.34.37:768][523]LogTemp: Warning: Player Pawn Tank_BP_C_0
+[2018.11.09-07.34.37:768][523]PIE: Play in editor start time for /Game/UEDPIE_0_BattleGround 0.332
+[2018.11.09-07.34.43:051][880]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.09-07.34.43:109][880]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.09-07.34.43:169][880]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.09-07.34.43:218][881]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2018.11.09-07.38.57:099][712]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.09-07.38.57:185][716]Candidate modules for hot reload:
+[2018.11.09-07.38.57:185][716]  BattleTank
+[2018.11.09-07.38.57:186][716]Launching UnrealBuildTool... [D:/Program Files (x86)/Unreal Engine/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BattleTank,9001 Win64 Development -TargetType=Editor -Project="F:/UnrealProjects/BattleTank/BattleTank/BattleTank.uproject" -canskiplink "F:/UnrealProjects/BattleTank/BattleTank/BattleTank.uproject" ]
+[2018.11.09-07.38.57:188][716]Warning: Starting HotReload took  0.0s.
+[2018.11.09-07.39.32:766][927]CompilerResultsLog: New page: Compilation - Nov 9, 2018, 9:39:32 PM
+[2018.11.09-07.39.32:767][927]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.11.09-07.39.32:768][927]CompilerResultsLog: Compiling game modules for hot reload
+[2018.11.09-07.39.32:768][927]CompilerResultsLog: Parsing headers for BattleTankEditor
+[2018.11.09-07.39.32:768][927]CompilerResultsLog:   Running UnrealHeaderTool "F:\UnrealProjects\BattleTank\BattleTank\BattleTank.uproject" "F:\UnrealProjects\BattleTank\BattleTank\Intermediate\Build\Win64\BattleTankEditor\Development\BattleTankEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.11.09-07.39.32:769][927]CompilerResultsLog: Reflection code generated for BattleTankEditor in 13.0547098 seconds
+[2018.11.09-07.39.32:770][927]CompilerResultsLog: Building 4 actions with 12 processes...
+[2018.11.09-07.39.32:770][927]CompilerResultsLog:   [1/4] TankAIController.cpp
+[2018.11.09-07.39.32:771][927]CompilerResultsLog:    F:\UnrealProjects\BattleTank\BattleTank\Source\BattleTank\Private\TankAIController.cpp(8) : error C2248: 'ATank::ATank': cannot access private member declared in class 'ATank'
+[2018.11.09-07.39.32:771][927]CompilerResultsLog:   F:\UnrealProjects\BattleTank\BattleTank\Source\BattleTank\Tank.h(12): note: see declaration of 'ATank::ATank'
+[2018.11.09-07.39.32:772][927]CompilerResultsLog:   F:\UnrealProjects\BattleTank\BattleTank\Source\BattleTank\Tank.h(10): note: see declaration of 'ATank'
+[2018.11.09-07.39.32:772][927]CompilerResultsLog:    F:\UnrealProjects\BattleTank\BattleTank\Source\BattleTank\Private\TankAIController.cpp(13) : error C2146: syntax error: missing ';' before identifier 'GetPawn'
+[2018.11.09-07.39.32:773][927]CompilerResultsLog:    F:\UnrealProjects\BattleTank\BattleTank\Source\BattleTank\Private\TankAIController.cpp(13) : error C2563: mismatch in formal parameter list
+[2018.11.09-07.39.32:774][927]CompilerResultsLog:    F:\UnrealProjects\BattleTank\BattleTank\Source\BattleTank\Private\TankAIController.cpp(13) : error C2298: missing call to bound pointer to member function
+[2018.11.09-07.39.32:774][927]CompilerResultsLog:   [2/4] TankAIController.gen.cpp
+[2018.11.09-07.39.32:774][927]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: F:\UnrealProjects\BattleTank\BattleTank\Binaries\Win64\UE4Editor-BattleTank-9001.dll
+[2018.11.09-07.39.32:775][927]CompilerResultsLog:        (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
+[2018.11.09-07.39.32:775][927]CompilerResultsLog: ERROR: UnrealBuildTool Exception: In F:\UnrealProjects\BattleTank\BattleTank\Source\BattleTank\Private\TankAIController.cpp: #include "..\Public\TankAIController.h" contains backslashes ('\'), please use forward slashes ('/') instead.
+[2018.11.09-07.39.32:778][927]LogMainFrame: MainFrame: Module compiling took 35.599 seconds
+[2018.11.09-07.39.32:778][927]Warning: HotReload failed, recompile failed
+[2018.11.09-07.41.55:726][830]Candidate modules for hot reload:
+[2018.11.09-07.41.55:726][830]  BattleTank
+[2018.11.09-07.41.55:726][830]Launching UnrealBuildTool... [D:/Program Files (x86)/Unreal Engine/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BattleTank,5677 Win64 Development -TargetType=Editor -Project="F:/UnrealProjects/BattleTank/BattleTank/BattleTank.uproject" -canskiplink "F:/UnrealProjects/BattleTank/BattleTank/BattleTank.uproject" ]
+[2018.11.09-07.41.55:729][830]Warning: Starting HotReload took  0.0s.
+[2018.11.09-07.42.18:129][ 28]CompilerResultsLog: New page: Compilation - Nov 9, 2018, 9:42:18 PM
+[2018.11.09-07.42.18:129][ 28]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.11.09-07.42.18:129][ 28]CompilerResultsLog: Compiling game modules for hot reload
+[2018.11.09-07.42.18:130][ 28]CompilerResultsLog: Performing full C++ include scan (no include cache file)
+[2018.11.09-07.42.18:130][ 28]CompilerResultsLog: Parsing headers for BattleTankEditor
+[2018.11.09-07.42.18:130][ 28]CompilerResultsLog:   Running UnrealHeaderTool "F:\UnrealProjects\BattleTank\BattleTank\BattleTank.uproject" "F:\UnrealProjects\BattleTank\BattleTank\Intermediate\Build\Win64\BattleTankEditor\Development\BattleTankEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.11.09-07.42.18:130][ 28]CompilerResultsLog: Reflection code generated for BattleTankEditor in 15.5601443 seconds
+[2018.11.09-07.42.18:130][ 28]CompilerResultsLog: ERROR: In F:\UnrealProjects\BattleTank\BattleTank\Source\BattleTank\Private\TankAIController.cpp: #include "..\Public\TankAIController.h" contains backslashes ('\'), please use forward slashes ('/') instead.
+[2018.11.09-07.42.18:131][ 28]CompilerResultsLog:        (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
+[2018.11.09-07.42.18:131][ 28]LogMainFrame: MainFrame: Module compiling took 22.413 seconds
+[2018.11.09-07.42.18:131][ 28]Warning: HotReload failed, recompile failed
+[2018.11.09-07.44.17:994][669]Candidate modules for hot reload:
+[2018.11.09-07.44.17:994][669]  BattleTank
+[2018.11.09-07.44.17:994][669]Launching UnrealBuildTool... [D:/Program Files (x86)/Unreal Engine/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BattleTank,1895 Win64 Development -TargetType=Editor -Project="F:/UnrealProjects/BattleTank/BattleTank/BattleTank.uproject" -canskiplink "F:/UnrealProjects/BattleTank/BattleTank/BattleTank.uproject" ]
+[2018.11.09-07.44.17:997][669]Warning: Starting HotReload took  0.0s.
+[2018.11.09-07.44.25:313][806]CompilerResultsLog: New page: Compilation - Nov 9, 2018, 9:44:25 PM
+[2018.11.09-07.44.25:314][806]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.11.09-07.44.25:314][806]CompilerResultsLog: Compiling game modules for hot reload
+[2018.11.09-07.44.25:314][806]CompilerResultsLog: Building 3 actions with 12 processes...
+[2018.11.09-07.44.25:314][806]CompilerResultsLog:   [1/3] TankAIController.cpp
+[2018.11.09-07.44.25:315][806]CompilerResultsLog:    F:\UnrealProjects\BattleTank\BattleTank\Source\BattleTank\Private\TankAIController.cpp(10) : error C2248: 'ATank::ATank': cannot access private member declared in class 'ATank'
+[2018.11.09-07.44.25:315][806]CompilerResultsLog:   F:\UnrealProjects\BattleTank\BattleTank\Source\BattleTank\Tank.h(12): note: see declaration of 'ATank::ATank'
+[2018.11.09-07.44.25:316][806]CompilerResultsLog:   F:\UnrealProjects\BattleTank\BattleTank\Source\BattleTank\Tank.h(10): note: see declaration of 'ATank'
+[2018.11.09-07.44.25:316][806]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: F:\UnrealProjects\BattleTank\BattleTank\Binaries\Win64\UE4Editor-BattleTank-1895.dll
+[2018.11.09-07.44.25:317][806]CompilerResultsLog:        (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
+[2018.11.09-07.44.25:317][806]CompilerResultsLog: Total build time: 6.86 seconds (Parallel executor: 0.00 seconds)
+[2018.11.09-07.44.25:318][806]LogMainFrame: MainFrame: Module compiling took 7.331 seconds
+[2018.11.09-07.44.25:318][806]Warning: HotReload failed, recompile failed
+[2018.11.09-07.50.36:612][333]Candidate modules for hot reload:
+[2018.11.09-07.50.36:612][333]  BattleTank
+[2018.11.09-07.50.36:613][333]Launching UnrealBuildTool... [D:/Program Files (x86)/Unreal Engine/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BattleTank,6931 Win64 Development -TargetType=Editor -Project="F:/UnrealProjects/BattleTank/BattleTank/BattleTank.uproject" -canskiplink "F:/UnrealProjects/BattleTank/BattleTank/BattleTank.uproject" ]
+[2018.11.09-07.50.36:615][333]Warning: Starting HotReload took  0.0s.
+[2018.11.09-07.51.10:564][216]CompilerResultsLog: New page: Compilation - Nov 9, 2018, 9:51:10 PM
+[2018.11.09-07.51.10:565][216]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.11.09-07.51.10:565][216]CompilerResultsLog: Compiling game modules for hot reload
+[2018.11.09-07.51.10:565][216]CompilerResultsLog: Parsing headers for BattleTankEditor
+[2018.11.09-07.51.10:565][216]CompilerResultsLog:   Running UnrealHeaderTool "F:\UnrealProjects\BattleTank\BattleTank\BattleTank.uproject" "F:\UnrealProjects\BattleTank\BattleTank\Intermediate\Build\Win64\BattleTankEditor\Development\BattleTankEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.11.09-07.51.10:566][216]CompilerResultsLog: Reflection code generated for BattleTankEditor in 16.4034862 seconds
+[2018.11.09-07.51.10:566][216]CompilerResultsLog: Building 3 actions with 12 processes...
+[2018.11.09-07.51.10:567][216]CompilerResultsLog:   [1/3] TankAIController.cpp
+[2018.11.09-07.51.10:567][216]CompilerResultsLog:   [2/3] UE4Editor-BattleTank-6931.lib
+[2018.11.09-07.51.10:567][216]CompilerResultsLog:      Creating library F:\UnrealProjects\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\UE4Editor-BattleTank-6931.lib and object F:\UnrealProjects\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\UE4Editor-BattleTank-6931.exp
+[2018.11.09-07.51.10:567][216]CompilerResultsLog:   [3/3] UE4Editor-BattleTank-6931.dll
+[2018.11.09-07.51.10:568][216]CompilerResultsLog:      Creating library F:\UnrealProjects\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\UE4Editor-BattleTank-6931.suppressed.lib and object F:\UnrealProjects\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\UE4Editor-BattleTank-6931.suppressed.exp
+[2018.11.09-07.51.10:568][216]CompilerResultsLog: Error:   TankAIController.gen.cpp.obj : error LNK2001: unresolved external symbol "private: virtual void __cdecl ATankAIController::BeginPlay(void)" (?BeginPlay@ATankAIController@@EEAAXXZ)
+[2018.11.09-07.51.10:568][216]CompilerResultsLog: Error:   F:\UnrealProjects\BattleTank\BattleTank\Binaries\Win64\UE4Editor-BattleTank-6931.dll : fatal error LNK1120: 1 unresolved externals
+[2018.11.09-07.51.10:569][216]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: F:\UnrealProjects\BattleTank\BattleTank\Binaries\Win64\UE4Editor-BattleTank-6931.dll
+[2018.11.09-07.51.10:569][216]CompilerResultsLog:        (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
+[2018.11.09-07.51.10:569][216]CompilerResultsLog: Total build time: 33.38 seconds (Parallel executor: 0.00 seconds)
+[2018.11.09-07.51.10:569][216]LogMainFrame: MainFrame: Module compiling took 33.964 seconds
+[2018.11.09-07.51.10:569][216]Warning: HotReload failed, recompile failed
+[2018.11.09-07.53.46:966][481]Candidate modules for hot reload:
+[2018.11.09-07.53.46:967][481]  BattleTank
+[2018.11.09-07.53.46:967][481]Launching UnrealBuildTool... [D:/Program Files (x86)/Unreal Engine/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BattleTank,2165 Win64 Development -TargetType=Editor -Project="F:/UnrealProjects/BattleTank/BattleTank/BattleTank.uproject" -canskiplink "F:/UnrealProjects/BattleTank/BattleTank/BattleTank.uproject" ]
+[2018.11.09-07.53.46:970][481]Warning: Starting HotReload took  0.0s.
+[2018.11.09-07.53.51:167][810]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.11.09-07.53.53:149][ 33]CompilerResultsLog: New page: Compilation - Nov 9, 2018, 9:53:53 PM
+[2018.11.09-07.53.53:149][ 33]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.11.09-07.53.53:149][ 33]CompilerResultsLog: Compiling game modules for hot reload
+[2018.11.09-07.53.53:149][ 33]CompilerResultsLog: Building 3 actions with 12 processes...
+[2018.11.09-07.53.53:149][ 33]CompilerResultsLog:   [1/3] TankAIController.cpp
+[2018.11.09-07.53.53:149][ 33]CompilerResultsLog:   [2/3] UE4Editor-BattleTank-2165.lib
+[2018.11.09-07.53.53:149][ 33]CompilerResultsLog:      Creating library F:\UnrealProjects\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\UE4Editor-BattleTank-2165.lib and object F:\UnrealProjects\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\UE4Editor-BattleTank-2165.exp
+[2018.11.09-07.53.53:149][ 33]CompilerResultsLog:   [3/3] UE4Editor-BattleTank-2165.dll
+[2018.11.09-07.53.53:150][ 33]CompilerResultsLog:      Creating library F:\UnrealProjects\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\UE4Editor-BattleTank-2165.suppressed.lib and object F:\UnrealProjects\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\UE4Editor-BattleTank-2165.suppressed.exp
+[2018.11.09-07.53.53:150][ 33]CompilerResultsLog: Error:   TankAIController.gen.cpp.obj : error LNK2001: unresolved external symbol "private: virtual void __cdecl ATankAIController::BeginPlay(void)" (?BeginPlay@ATankAIController@@EEAAXXZ)
+[2018.11.09-07.53.53:150][ 33]CompilerResultsLog: Error:   F:\UnrealProjects\BattleTank\BattleTank\Binaries\Win64\UE4Editor-BattleTank-2165.dll : fatal error LNK1120: 1 unresolved externals
+[2018.11.09-07.53.53:150][ 33]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: F:\UnrealProjects\BattleTank\BattleTank\Binaries\Win64\UE4Editor-BattleTank-2165.dll
+[2018.11.09-07.53.53:151][ 33]CompilerResultsLog:        (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
+[2018.11.09-07.53.53:151][ 33]CompilerResultsLog: Total build time: 5.72 seconds (Parallel executor: 0.00 seconds)
+[2018.11.09-07.53.53:151][ 33]LogMainFrame: MainFrame: Module compiling took 6.191 seconds
+[2018.11.09-07.53.53:151][ 33]Warning: HotReload failed, recompile failed
+[2018.11.09-07.54.00:164][799]Candidate modules for hot reload:
+[2018.11.09-07.54.00:164][799]  BattleTank
+[2018.11.09-07.54.00:165][799]Launching UnrealBuildTool... [D:/Program Files (x86)/Unreal Engine/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BattleTank,1441 Win64 Development -TargetType=Editor -Project="F:/UnrealProjects/BattleTank/BattleTank/BattleTank.uproject" -canskiplink "F:/UnrealProjects/BattleTank/BattleTank/BattleTank.uproject" ]
+[2018.11.09-07.54.00:167][799]Warning: Starting HotReload took  0.0s.
+[2018.11.09-07.54.03:715][ 29]CompilerResultsLog: New page: Compilation - Nov 9, 2018, 9:54:03 PM
+[2018.11.09-07.54.03:716][ 29]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.11.09-07.54.03:716][ 29]CompilerResultsLog: Compiling game modules for hot reload
+[2018.11.09-07.54.03:716][ 29]CompilerResultsLog: Building 1 action with 12 processes...
+[2018.11.09-07.54.03:716][ 29]CompilerResultsLog:   [1/1] UE4Editor-BattleTank-1441.dll
+[2018.11.09-07.54.03:716][ 29]CompilerResultsLog:      Creating library F:\UnrealProjects\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\UE4Editor-BattleTank-1441.suppressed.lib and object F:\UnrealProjects\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\UE4Editor-BattleTank-1441.suppressed.exp
+[2018.11.09-07.54.03:716][ 29]CompilerResultsLog: Error:   TankAIController.gen.cpp.obj : error LNK2001: unresolved external symbol "private: virtual void __cdecl ATankAIController::BeginPlay(void)" (?BeginPlay@ATankAIController@@EEAAXXZ)
+[2018.11.09-07.54.03:716][ 29]CompilerResultsLog: Error:   F:\UnrealProjects\BattleTank\BattleTank\Binaries\Win64\UE4Editor-BattleTank-1441.dll : fatal error LNK1120: 1 unresolved externals
+[2018.11.09-07.54.03:717][ 29]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: F:\UnrealProjects\BattleTank\BattleTank\Binaries\Win64\UE4Editor-BattleTank-1441.dll
+[2018.11.09-07.54.03:717][ 29]CompilerResultsLog:        (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
+[2018.11.09-07.54.03:717][ 29]CompilerResultsLog: Total build time: 3.23 seconds (Parallel executor: 0.00 seconds)
+[2018.11.09-07.54.03:717][ 29]LogMainFrame: MainFrame: Module compiling took 3.560 seconds
+[2018.11.09-07.54.03:717][ 29]Warning: HotReload failed, recompile failed
+[2018.11.09-07.54.31:191][407]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BattleGround" FILE="F:/UnrealProjects/BattleTank/BattleTank/Saved/Autosaves/Game/BattleGround_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2018.11.09-07.54.32:275][407]LogSavePackage: Moving 'F:/UnrealProjects/BattleTank/BattleTank/Saved/BattleGround_Auto2BD7852D5471B53E45D64D9AF80B81A04.tmp' to 'F:/UnrealProjects/BattleTank/BattleTank/Saved/Autosaves/Game/BattleGround_Auto2.umap'
+[2018.11.09-07.54.32:280][407]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/BattleGround' took 1.138
+[2018.11.09-07.54.32:280][407]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.138
+[2018.11.09-07.54.32:283][407]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Tank/Tank_BP] ([1] browsable assets)...
+[2018.11.09-07.54.32:298][407]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Tank/Tank_BP.Tank_BP]
+[2018.11.09-07.54.32:298][407]OBJ SavePackage: Finished generating thumbnails for package [/Game/Tank/Tank_BP]
+[2018.11.09-07.54.32:298][407]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/Tank_BP" FILE="F:/UnrealProjects/BattleTank/BattleTank/Saved/Autosaves/Game/Tank/Tank_BP_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2018.11.09-07.54.32:453][407]LogSavePackage: Moving 'F:/UnrealProjects/BattleTank/BattleTank/Saved/Tank_BP_Auto27659976948E2E65BD09B95BA952D06BE.tmp' to 'F:/UnrealProjects/BattleTank/BattleTank/Saved/Autosaves/Game/Tank/Tank_BP_Auto2.uasset'
+[2018.11.09-07.54.32:457][407]LogFileHelpers: Auto-saving content packages took 0.175
+[2018.11.09-07.54.45:534][482]BlueprintLog: New page: Compile Tank_BP
+[2018.11.09-07.54.47:350][613]Candidate modules for hot reload:
+[2018.11.09-07.54.47:350][613]  BattleTank
+[2018.11.09-07.54.47:350][613]Launching UnrealBuildTool... [D:/Program Files (x86)/Unreal Engine/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BattleTank,2602 Win64 Development -TargetType=Editor -Project="F:/UnrealProjects/BattleTank/BattleTank/BattleTank.uproject" -canskiplink "F:/UnrealProjects/BattleTank/BattleTank/BattleTank.uproject" ]
+[2018.11.09-07.54.47:353][613]Warning: Starting HotReload took  0.0s.
+[2018.11.09-07.55.21:493][983]CompilerResultsLog: New page: Compilation - Nov 9, 2018, 9:55:21 PM
+[2018.11.09-07.55.21:494][983]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.11.09-07.55.21:494][983]CompilerResultsLog: Creating makefile for hot reloading BattleTankEditor (UHT file was deleted)
+[2018.11.09-07.55.21:495][983]CompilerResultsLog: Compiling game modules for hot reload
+[2018.11.09-07.55.21:495][983]CompilerResultsLog: Using Visual Studio 2017 14.15.26726 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2018.11.09-07.55.21:496][983]CompilerResultsLog: Parsing headers for BattleTankEditor
+[2018.11.09-07.55.21:496][983]CompilerResultsLog:   Running UnrealHeaderTool "F:\UnrealProjects\BattleTank\BattleTank\BattleTank.uproject" "F:\UnrealProjects\BattleTank\BattleTank\Intermediate\Build\Win64\BattleTankEditor\Development\BattleTankEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.11.09-07.55.21:497][983]CompilerResultsLog: Reflection code generated for BattleTankEditor in 14.957319 seconds
+[2018.11.09-07.55.21:498][983]CompilerResultsLog: Building 3 actions with 12 processes...
+[2018.11.09-07.55.21:498][983]CompilerResultsLog:   [1/3] BattleTank.init.gen.cpp
+[2018.11.09-07.55.21:498][983]CompilerResultsLog:   [2/3] UE4Editor-BattleTank-2602.lib
+[2018.11.09-07.55.21:498][983]CompilerResultsLog:      Creating library F:\UnrealProjects\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\UE4Editor-BattleTank-2602.lib and object F:\UnrealProjects\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\UE4Editor-BattleTank-2602.exp
+[2018.11.09-07.55.21:500][983]CompilerResultsLog:   [3/3] UE4Editor-BattleTank-2602.dll
+[2018.11.09-07.55.21:500][983]CompilerResultsLog:      Creating library F:\UnrealProjects\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\UE4Editor-BattleTank-2602.suppressed.lib and object F:\UnrealProjects\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\UE4Editor-BattleTank-2602.suppressed.exp
+[2018.11.09-07.55.21:501][983]CompilerResultsLog: Total build time: 33.58 seconds (Parallel executor: 2.63 seconds)
+[2018.11.09-07.55.21:501][983]LogMainFrame: MainFrame: Module compiling took 34.158 seconds
+[2018.11.09-07.55.21:601][983]LogContentBrowser: Native class hierarchy updated for 'BattleTank' in 0.0020 seconds. Added 5 classes and 3 folders.
+[2018.11.09-07.55.21:608][983]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.11.09-07.55.22:468][983]LogContentBrowser: Native class hierarchy populated in 0.0230 seconds. Added 2578 classes and 608 folders.
+[2018.11.09-07.55.22:469][983]Display: HotReload took 35.1s.
+[2018.11.09-07.55.46:687][173]LogSlate: Window 'Add C++ Class' being destroyed
+[2018.11.09-07.55.48:864][250]LogSlate: Window 'Save Content' being destroyed
+[2018.11.09-07.55.49:104][250]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BattleGround" FILE="F:/UnrealProjects/BattleTank/BattleTank/Content/BattleGround.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.11.09-07.55.50:548][250]LogSavePackage: Moving 'F:/UnrealProjects/BattleTank/BattleTank/Saved/BattleGroundE4B385F944F74DBB33333787A5A484DE.tmp' to 'F:/UnrealProjects/BattleTank/BattleTank/Content/BattleGround.umap'
+[2018.11.09-07.55.50:618][250]LogFileHelpers: Saving map 'BattleGround' took 1.724
+[2018.11.09-07.55.50:650][250]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/Tank_BP" FILE="F:/UnrealProjects/BattleTank/BattleTank/Content/Tank/Tank_BP.uasset" SILENT=true
+[2018.11.09-07.55.50:754][250]LogSavePackage: Moving 'F:/UnrealProjects/BattleTank/BattleTank/Saved/Tank_BPC502C326458DCF0098B12198C290E7D8.tmp' to 'F:/UnrealProjects/BattleTank/BattleTank/Content/Tank/Tank_BP.uasset'
+[2018.11.09-07.55.51:689][282]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.11.09-07.55.51:895][282]LogSlate: Window 'BattleTank - Unreal Editor' being destroyed
+[2018.11.09-07.55.52:575][282]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/' was aborted.
+[2018.11.09-07.55.52:857][283]Cmd: QUIT_EDITOR
+[2018.11.09-07.55.53:757][283]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.09-07.55.53:859][283]LogExit: Preparing to exit.
+[2018.11.09-07.55.55:482][283]LogExit: Editor shut down
+[2018.11.09-07.55.55:485][283]LogExit: Transaction tracking system shut down
+[2018.11.09-07.55.58:474][283]LogExit: Object subsystem successfully closed.
+[2018.11.09-07.55.58:673][283]LogShaderCompilers: Display: Shaders left to compile 0
+[2018.11.09-07.55.58:711][283]LogD3D11RHI: Shutdown
+[2018.11.09-07.55.58:711][283]LogD3D11RHI: CleanupD3DDevice
+[2018.11.09-07.55.58:846][283]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.11.09-07.56.00:708][283]LogModuleManager: Shutting down and abandoning module BattleTank (629)
+[2018.11.09-07.56.00:708][283]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (623)
+[2018.11.09-07.56.00:708][283]LogModuleManager: Shutting down and abandoning module Voice (621)
+[2018.11.09-07.56.00:712][283]LogModuleManager: Shutting down and abandoning module BlueprintGraph (618)
+[2018.11.09-07.56.00:712][283]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (616)
+[2018.11.09-07.56.00:712][283]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (614)
+[2018.11.09-07.56.00:713][283]LogModuleManager: Shutting down and abandoning module SceneOutliner (612)
+[2018.11.09-07.56.00:713][283]LogModuleManager: Shutting down and abandoning module AddContentDialog (610)
+[2018.11.09-07.56.00:734][283]LogModuleManager: Shutting down and abandoning module WidgetCarousel (609)
+[2018.11.09-07.56.00:735][283]LogModuleManager: Shutting down and abandoning module EditorWidgets (606)
+[2018.11.09-07.56.00:735][283]LogModuleManager: Shutting down and abandoning module CollectionManager (604)
+[2018.11.09-07.56.00:743][283]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (602)
+[2018.11.09-07.56.00:752][283]LogModuleManager: Shutting down and abandoning module StatsViewer (600)
+[2018.11.09-07.56.00:774][283]LogModuleManager: Shutting down and abandoning module FoliageEdit (598)
+[2018.11.09-07.56.00:783][283]LogModuleManager: Shutting down and abandoning module LandscapeEditor (596)
+[2018.11.09-07.56.00:877][283]LogModuleManager: Shutting down and abandoning module MeshPaintMode (594)
+[2018.11.09-07.56.00:898][283]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (592)
+[2018.11.09-07.56.00:899][283]LogModuleManager: Shutting down and abandoning module ActorPickerMode (590)
+[2018.11.09-07.56.00:899][283]LogModuleManager: Shutting down and abandoning module GeometryMode (588)
+[2018.11.09-07.56.00:899][283]LogModuleManager: Shutting down and abandoning module TextureAlignMode (586)
+[2018.11.09-07.56.00:899][283]LogModuleManager: Shutting down and abandoning module BspMode (584)
+[2018.11.09-07.56.00:899][283]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (582)
+[2018.11.09-07.56.00:914][283]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (580)
+[2018.11.09-07.56.00:924][283]LogModuleManager: Shutting down and abandoning module AutomationWorker (578)
+[2018.11.09-07.56.00:924][283]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (576)
+[2018.11.09-07.56.00:924][283]LogModuleManager: Shutting down and abandoning module SequenceRecorder (575)
+[2018.11.09-07.56.00:944][283]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (572)
+[2018.11.09-07.56.00:957][283]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (570)
+[2018.11.09-07.56.00:971][283]LogModuleManager: Shutting down and abandoning module PlacementMode (569)
+[2018.11.09-07.56.00:972][283]LogModuleManager: Shutting down and abandoning module MaterialEditor (568)
+[2018.11.09-07.56.01:036][283]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (564)
+[2018.11.09-07.56.01:036][283]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (562)
+[2018.11.09-07.56.01:036][283]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (560)
+[2018.11.09-07.56.01:052][283]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (558)
+[2018.11.09-07.56.01:052][283]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (556)
+[2018.11.09-07.56.01:052][283]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (554)
+[2018.11.09-07.56.01:052][283]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (552)
+[2018.11.09-07.56.01:052][283]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (550)
+[2018.11.09-07.56.01:052][283]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (548)
+[2018.11.09-07.56.01:052][283]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (546)
+[2018.11.09-07.56.01:052][283]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (544)
+[2018.11.09-07.56.01:052][283]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (542)
+[2018.11.09-07.56.01:052][283]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (540)
+[2018.11.09-07.56.01:052][283]LogModuleManager: Shutting down and abandoning module CharacterAI (538)
+[2018.11.09-07.56.01:053][283]LogModuleManager: Shutting down and abandoning module SmartSnapping (536)
+[2018.11.09-07.56.01:053][283]LogModuleManager: Shutting down and abandoning module SessionServices (534)
+[2018.11.09-07.56.01:053][283]LogModuleManager: Shutting down and abandoning module ViewportSnapping (532)
+[2018.11.09-07.56.01:053][283]LogModuleManager: Shutting down and abandoning module ViewportInteraction (530)
+[2018.11.09-07.56.01:053][283]LogModuleManager: Shutting down and abandoning module ClothPainter (528)
+[2018.11.09-07.56.01:248][283]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (527)
+[2018.11.09-07.56.01:304][283]LogModuleManager: Shutting down and abandoning module LogVisualizer (524)
+[2018.11.09-07.56.01:430][283]LogModuleManager: Shutting down and abandoning module IntroTutorials (522)
+[2018.11.09-07.56.01:515][283]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (521)
+[2018.11.09-07.56.01:515][283]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (518)
+[2018.11.09-07.56.01:515][283]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (516)
+[2018.11.09-07.56.01:515][283]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (514)
+[2018.11.09-07.56.01:515][283]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (512)
+[2018.11.09-07.56.01:515][283]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (511)
+[2018.11.09-07.56.02:049][283]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (508)
+[2018.11.09-07.56.02:049][283]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (506)
+[2018.11.09-07.56.02:049][283]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (504)
+[2018.11.09-07.56.02:049][283]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (502)
+[2018.11.09-07.56.02:049][283]LogModuleManager: Shutting down and abandoning module InputBindingEditor (500)
+[2018.11.09-07.56.02:055][283]LogModuleManager: Shutting down and abandoning module MergeActors (498)
+[2018.11.09-07.56.02:060][283]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (496)
+[2018.11.09-07.56.02:103][283]LogModuleManager: Shutting down and abandoning module LocalizationService (495)
+[2018.11.09-07.56.02:315][283]LogModuleManager: Shutting down and abandoning module HardwareTargeting (492)
+[2018.11.09-07.56.02:315][283]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (490)
+[2018.11.09-07.56.02:316][283]LogModuleManager: Shutting down and abandoning module UndoHistory (488)
+[2018.11.09-07.56.02:374][283]LogModuleManager: Shutting down and abandoning module XmlParser (486)
+[2018.11.09-07.56.02:374][283]LogModuleManager: Shutting down and abandoning module Blutility (484)
+[2018.11.09-07.56.02:385][283]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (482)
+[2018.11.09-07.56.02:385][283]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (481)
+[2018.11.09-07.56.02:387][283]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (478)
+[2018.11.09-07.56.02:387][283]LogModuleManager: Shutting down and abandoning module SettingsEditor (476)
+[2018.11.09-07.56.02:425][283]LogModuleManager: Shutting down and abandoning module ProjectLauncher (474)
+[2018.11.09-07.56.02:483][283]LogModuleManager: Shutting down and abandoning module SessionFrontend (472)
+[2018.11.09-07.56.02:499][283]LogModuleManager: Shutting down and abandoning module ProfilerClient (470)
+[2018.11.09-07.56.02:535][283]LogModuleManager: Shutting down and abandoning module DeviceManager (468)
+[2018.11.09-07.56.02:550][283]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (467)
+[2018.11.09-07.56.02:605][283]LogModuleManager: Shutting down and abandoning module AutomationController (464)
+[2018.11.09-07.56.02:727][283]LogModuleManager: Shutting down and abandoning module AutomationWindow (462)
+[2018.11.09-07.56.02:793][283]LogModuleManager: Shutting down and abandoning module Layers (460)
+[2018.11.09-07.56.02:959][283]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (458)
+[2018.11.09-07.56.02:959][283]LogModuleManager: Shutting down and abandoning module DetailCustomizations (456)
+[2018.11.09-07.56.02:977][283]LogModuleManager: Shutting down and abandoning module PackagesDialog (454)
+[2018.11.09-07.56.02:978][283]LogModuleManager: Shutting down and abandoning module Persona (452)
+[2018.11.09-07.56.03:069][283]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (451)
+[2018.11.09-07.56.03:069][283]LogModuleManager: Shutting down and abandoning module AnimGraph (449)
+[2018.11.09-07.56.03:085][283]LogModuleManager: Shutting down and abandoning module Kismet (446)
+[2018.11.09-07.56.03:143][283]LogModuleManager: Shutting down and abandoning module GraphEditor (444)
+[2018.11.09-07.56.03:143][283]LogModuleManager: Shutting down and abandoning module ClassViewer (442)
+[2018.11.09-07.56.03:146][283]LogModuleManager: Shutting down and abandoning module Toolbox (440)
+[2018.11.09-07.56.03:146][283]LogModuleManager: Shutting down and abandoning module DesktopPlatform (439)
+[2018.11.09-07.56.03:146][283]LogModuleManager: Shutting down and abandoning module ModuleUI (436)
+[2018.11.09-07.56.03:195][283]LogModuleManager: Shutting down and abandoning module MovieSceneTools (434)
+[2018.11.09-07.56.03:238][283]LogModuleManager: Shutting down and abandoning module OutputLog (432)
+[2018.11.09-07.56.03:238][283]LogModuleManager: Shutting down and abandoning module GammaUI (430)
+[2018.11.09-07.56.03:272][283]LogModuleManager: Shutting down and abandoning module Documentation (428)
+[2018.11.09-07.56.03:272][283]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (426)
+[2018.11.09-07.56.03:272][283]LogModuleManager: Shutting down and abandoning module MovieScene (424)
+[2018.11.09-07.56.03:337][283]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (422)
+[2018.11.09-07.56.03:350][283]LogModuleManager: Shutting down and abandoning module LauncherPlatform (420)
+[2018.11.09-07.56.03:351][283]LogModuleManager: Shutting down and abandoning module AnalyticsET (418)
+[2018.11.09-07.56.03:351][283]LogModuleManager: Shutting down and abandoning module PortalServices (416)
+[2018.11.09-07.56.03:351][283]LogModuleManager: Shutting down and abandoning module PortalRpc (414)
+[2018.11.09-07.56.03:351][283]LogModuleManager: Shutting down and abandoning module MessagingRpc (412)
+[2018.11.09-07.56.03:351][283]LogModuleManager: Shutting down and abandoning module AIModule (410)
+[2018.11.09-07.56.03:380][283]LogModuleManager: Shutting down and abandoning module GameplayDebugger (409)
+[2018.11.09-07.56.03:419][283]LogModuleManager: Shutting down and abandoning module AITestSuite (407)
+[2018.11.09-07.56.03:450][283]LogModuleManager: Shutting down and abandoning module NavigationSystem (405)
+[2018.11.09-07.56.03:450][283]LogModuleManager: Shutting down and abandoning module ProfilerService (402)
+[2018.11.09-07.56.03:634][283]LogModuleManager: Shutting down and abandoning module TaskGraph (400)
+[2018.11.09-07.56.03:669][283]LogModuleManager: Shutting down and abandoning module SteamVRController (398)
+[2018.11.09-07.56.03:669][283]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (396)
+[2018.11.09-07.56.03:669][283]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (394)
+[2018.11.09-07.56.03:705][283]LogModuleManager: Shutting down and abandoning module OculusInput (392)
+[2018.11.09-07.56.03:705][283]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (390)
+[2018.11.09-07.56.03:705][283]LogModuleManager: Shutting down and abandoning module EditableMesh (388)
+[2018.11.09-07.56.03:722][283]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (386)
+[2018.11.09-07.56.03:723][283]LogModuleManager: Shutting down and abandoning module CableComponent (384)
+[2018.11.09-07.56.03:723][283]LogModuleManager: Shutting down and abandoning module AudioCapture (382)
+[2018.11.09-07.56.03:723][283]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (380)
+[2018.11.09-07.56.03:723][283]LogModuleManager: Shutting down and abandoning module AndroidPermission (378)
+[2018.11.09-07.56.03:723][283]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (376)
+[2018.11.09-07.56.03:723][283]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (374)
+[2018.11.09-07.56.03:875][283]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (372)
+[2018.11.09-07.56.03:875][283]LogModuleManager: Shutting down and abandoning module MediaCompositing (370)
+[2018.11.09-07.56.03:875][283]LogModuleManager: Shutting down and abandoning module LinearTimecode (368)
+[2018.11.09-07.56.03:875][283]LogModuleManager: Shutting down and abandoning module ImgMedia (366)
+[2018.11.09-07.56.03:907][283]LogModuleManager: Shutting down and abandoning module HTML5Networking (364)
+[2018.11.09-07.56.03:907][283]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (362)
+[2018.11.09-07.56.03:907][283]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (360)
+[2018.11.09-07.56.03:907][283]LogModuleManager: Shutting down and abandoning module BackChannel (358)
+[2018.11.09-07.56.03:933][283]LogModuleManager: Shutting down and abandoning module AppleVision (356)
+[2018.11.09-07.56.03:933][283]LogModuleManager: Shutting down and abandoning module AppleImageUtils (354)
+[2018.11.09-07.56.03:933][283]LogModuleManager: Shutting down and abandoning module AlembicImporter (352)
+[2018.11.09-07.56.03:933][283]LogModuleManager: Shutting down and abandoning module AlembicLibrary (351)
+[2018.11.09-07.56.03:933][283]LogModuleManager: Shutting down and abandoning module GeometryCache (350)
+[2018.11.09-07.56.03:933][283]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (349)
+[2018.11.09-07.56.03:934][283]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (344)
+[2018.11.09-07.56.03:944][283]LogModuleManager: Shutting down and abandoning module DatasmithContent (342)
+[2018.11.09-07.56.03:945][283]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (340)
+[2018.11.09-07.56.03:945][283]LogModuleManager: Shutting down and abandoning module PluginBrowser (338)
+[2018.11.09-07.56.03:945][283]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (336)
+[2018.11.09-07.56.03:971][283]LogModuleManager: Shutting down and abandoning module PolygonModeling (334)
+[2018.11.09-07.56.03:971][283]LogModuleManager: Shutting down and abandoning module MeshEditor (332)
+[2018.11.09-07.56.03:994][283]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (330)
+[2018.11.09-07.56.04:017][283]LogModuleManager: Shutting down and abandoning module CryptoKeys (328)
+[2018.11.09-07.56.04:017][283]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (326)
+[2018.11.09-07.56.04:017][283]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (324)
+[2018.11.09-07.56.04:017][283]LogModuleManager: Shutting down and abandoning module UObjectPlugin (322)
+[2018.11.09-07.56.04:017][283]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (320)
+[2018.11.09-07.56.04:063][283]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (318)
+[2018.11.09-07.56.04:074][283]LogModuleManager: Shutting down and abandoning module GitSourceControl (316)
+[2018.11.09-07.56.04:081][283]LogModuleManager: Shutting down and abandoning module SourceControl (315)
+[2018.11.09-07.56.04:113][283]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (312)
+[2018.11.09-07.56.04:113][283]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (310)
+[2018.11.09-07.56.04:113][283]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (308)
+[2018.11.09-07.56.04:113][283]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (306)
+[2018.11.09-07.56.04:113][283]LogModuleManager: Shutting down and abandoning module Paper2DEditor (304)
+[2018.11.09-07.56.04:136][283]LogModuleManager: Shutting down and abandoning module MeshPaint (303)
+[2018.11.09-07.56.04:141][283]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (298)
+[2018.11.09-07.56.04:141][283]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (296)
+[2018.11.09-07.56.04:141][283]LogModuleManager: Shutting down and abandoning module PhysXVehicles (294)
+[2018.11.09-07.56.04:141][283]LogModuleManager: Shutting down and abandoning module OculusEditor (292)
+[2018.11.09-07.56.04:145][283]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (290)
+[2018.11.09-07.56.04:145][283]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (288)
+[2018.11.09-07.56.04:145][283]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (286)
+[2018.11.09-07.56.04:198][283]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2018.11.09-07.56.04:198][283]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2018.11.09-07.56.04:300][283]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2018.11.09-07.56.04:413][283]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
+[2018.11.09-07.56.04:413][283]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
+[2018.11.09-07.56.04:476][283]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
+[2018.11.09-07.56.04:476][283]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
+[2018.11.09-07.56.04:476][283]LogModuleManager: Shutting down and abandoning module DataValidation (270)
+[2018.11.09-07.56.04:476][283]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
+[2018.11.09-07.56.04:548][283]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
+[2018.11.09-07.56.04:582][283]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
+[2018.11.09-07.56.04:588][283]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
+[2018.11.09-07.56.04:589][283]LogModuleManager: Shutting down and abandoning module MainFrame (262)
+[2018.11.09-07.56.04:609][283]LogModuleManager: Shutting down and abandoning module HotReload (261)
+[2018.11.09-07.56.04:610][283]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
+[2018.11.09-07.56.04:614][283]LogModuleManager: Shutting down and abandoning module TreeMap (255)
+[2018.11.09-07.56.04:647][283]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
+[2018.11.09-07.56.04:647][283]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
+[2018.11.09-07.56.04:647][283]LogModuleManager: Shutting down and abandoning module Paper2D (248)
+[2018.11.09-07.56.04:671][283]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
+[2018.11.09-07.56.04:745][283]LogModuleManager: Shutting down and abandoning module WmfMedia (244)
+[2018.11.09-07.56.04:800][283]LogModuleManager: Shutting down and abandoning module Media (243)
+[2018.11.09-07.56.04:806][283]LogModuleManager: Shutting down and abandoning module PacketHandler (240)
+[2018.11.09-07.56.04:806][283]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (238)
+[2018.11.09-07.56.04:807][283]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (236)
+[2018.11.09-07.56.04:943][283]LogModuleManager: Shutting down and abandoning module MediaAssets (234)
+[2018.11.09-07.56.04:943][283]LogModuleManager: Shutting down and abandoning module Overlay (232)
+[2018.11.09-07.56.04:943][283]LogModuleManager: Shutting down and abandoning module OverlayEditor (231)
+[2018.11.09-07.56.04:943][283]LogModuleManager: Shutting down and abandoning module VREditor (228)
+[2018.11.09-07.56.04:953][283]LogModuleManager: Shutting down and abandoning module StringTableEditor (226)
+[2018.11.09-07.56.04:994][283]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (224)
+[2018.11.09-07.56.04:994][283]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (222)
+[2018.11.09-07.56.05:183][283]LogModuleManager: Shutting down and abandoning module FunctionalTesting (220)
+[2018.11.09-07.56.05:240][283]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (218)
+[2018.11.09-07.56.05:306][283]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (217)
+[2018.11.09-07.56.05:306][283]LogModuleManager: Shutting down and abandoning module UMG (214)
+[2018.11.09-07.56.05:322][283]LogModuleManager: Shutting down and abandoning module UMGEditor (213)
+[2018.11.09-07.56.05:457][283]LogModuleManager: Shutting down and abandoning module Sequencer (212)
+[2018.11.09-07.56.05:507][283]LogModuleManager: Shutting down and abandoning module MessageLog (209)
+[2018.11.09-07.56.05:507][283]LogModuleManager: Shutting down and abandoning module SlateReflector (204)
+[2018.11.09-07.56.05:633][283]LogModuleManager: Shutting down and abandoning module Slate (202)
+[2018.11.09-07.56.05:633][283]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
+[2018.11.09-07.56.05:642][283]LogModuleManager: Shutting down and abandoning module MRMesh (198)
+[2018.11.09-07.56.05:642][283]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (196)
+[2018.11.09-07.56.05:642][283]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (194)
+[2018.11.09-07.56.05:642][283]LogModuleManager: Shutting down and abandoning module XAudio2 (192)
+[2018.11.09-07.56.05:642][283]LogModuleManager: Shutting down and abandoning module Networking (190)
+[2018.11.09-07.56.05:642][283]LogModuleManager: Shutting down and abandoning module Core (188)
+[2018.11.09-07.56.05:642][283]LogModuleManager: Shutting down and abandoning module LevelSequence (186)
+[2018.11.09-07.56.05:642][283]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
+[2018.11.09-07.56.05:642][283]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
+[2018.11.09-07.56.05:667][283]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
+[2018.11.09-07.56.05:679][283]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
+[2018.11.09-07.56.05:679][283]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (179)
+[2018.11.09-07.56.05:693][283]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
+[2018.11.09-07.56.05:722][283]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (175)
+[2018.11.09-07.56.05:723][283]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (173)
+[2018.11.09-07.56.05:742][283]LogModuleManager: Shutting down and abandoning module MaterialBaking (169)
+[2018.11.09-07.56.05:749][283]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (165)
+[2018.11.09-07.56.05:753][283]LogModuleManager: Shutting down and abandoning module DerivedDataCache (162)
+[2018.11.09-07.56.05:786][283]LogDerivedDataCache: Shutdown
+[2018.11.09-07.56.05:787][283]LogModuleManager: Shutting down and abandoning module XGEController (160)
+[2018.11.09-07.56.05:787][283]LogXGEController: Cleaning working directory: C:/Users/truon/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.11.09-07.56.05:791][283]LogModuleManager: Shutting down and abandoning module TargetPlatform (158)
+[2018.11.09-07.56.05:791][283]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (157)
+[2018.11.09-07.56.05:814][283]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (155)
+[2018.11.09-07.56.05:828][283]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (153)
+[2018.11.09-07.56.05:830][283]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (151)
+[2018.11.09-07.56.05:831][283]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (149)
+[2018.11.09-07.56.05:835][283]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (147)
+[2018.11.09-07.56.05:835][283]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (145)
+[2018.11.09-07.56.05:835][283]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (143)
+[2018.11.09-07.56.05:848][283]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (141)
+[2018.11.09-07.56.05:848][283]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (139)
+[2018.11.09-07.56.05:849][283]LogModuleManager: Shutting down and abandoning module ImageWrapper (138)
+[2018.11.09-07.56.05:849][283]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (135)
+[2018.11.09-07.56.05:849][283]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (133)
+[2018.11.09-07.56.05:849][283]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (131)
+[2018.11.09-07.56.05:849][283]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (129)
+[2018.11.09-07.56.05:849][283]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (127)
+[2018.11.09-07.56.05:849][283]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (125)
+[2018.11.09-07.56.05:849][283]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (123)
+[2018.11.09-07.56.05:849][283]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (121)
+[2018.11.09-07.56.05:853][283]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
+[2018.11.09-07.56.05:854][283]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (117)
+[2018.11.09-07.56.05:863][283]LogModuleManager: Shutting down and abandoning module Messaging (115)
+[2018.11.09-07.56.05:863][283]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
+[2018.11.09-07.56.05:874][283]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (111)
+[2018.11.09-07.56.05:874][283]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (109)
+[2018.11.09-07.56.06:001][283]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (107)
+[2018.11.09-07.56.06:001][283]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (105)
+[2018.11.09-07.56.06:001][283]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (103)
+[2018.11.09-07.56.06:001][283]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (101)
+[2018.11.09-07.56.06:001][283]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (99)
+[2018.11.09-07.56.06:001][283]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (97)
+[2018.11.09-07.56.06:001][283]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (95)
+[2018.11.09-07.56.06:002][283]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (93)
+[2018.11.09-07.56.06:002][283]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (91)
+[2018.11.09-07.56.06:002][283]LogModuleManager: Shutting down and abandoning module InputCore (88)
+[2018.11.09-07.56.06:002][283]LogModuleManager: Shutting down and abandoning module Settings (86)
+[2018.11.09-07.56.06:002][283]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
+[2018.11.09-07.56.06:002][283]LogModuleManager: Shutting down and abandoning module SteamVR (82)
+[2018.11.09-07.56.06:002][283]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
+[2018.11.09-07.56.06:020][283]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
+[2018.11.09-07.56.06:020][283]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
+[2018.11.09-07.56.06:020][283]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2018.11.09-07.56.06:020][283]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
+[2018.11.09-07.56.06:034][283]LogModuleManager: Shutting down and abandoning module XMPP (65)
+[2018.11.09-07.56.06:048][283]LogModuleManager: Shutting down and abandoning module WebSockets (64)
+[2018.11.09-07.56.06:108][283]LogModuleManager: Shutting down and abandoning module HTTP (61)
+[2018.11.09-07.56.06:119][283]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.11.09-07.56.06:119][283]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B78CFCD79-4540-1742-736A-4CAF6219087E%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.2-4302132%2B%2B%2BUE4%2BRelease-4.20&UserID=0bbcf5dd4dba6cbcfb3640a4a6fcc955%7C2dec23f10a3e48cd9333c4d21ef39de2%7C583e5dd2-58f5-4fc4-b991-8d20f8889385&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.11.09-07.56.06:148][283]LogModuleManager: Shutting down and abandoning module SSL (60)
+[2018.11.09-07.56.06:163][283]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
+[2018.11.09-07.56.06:163][283]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
+[2018.11.09-07.56.06:163][283]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
+[2018.11.09-07.56.06:163][283]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
+[2018.11.09-07.56.06:163][283]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
+[2018.11.09-07.56.06:163][283]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
+[2018.11.09-07.56.06:163][283]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
+[2018.11.09-07.56.06:163][283]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
+[2018.11.09-07.56.06:163][283]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
+[2018.11.09-07.56.06:164][283]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2018.11.09-07.56.06:164][283]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
+[2018.11.09-07.56.06:164][283]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.11.09-07.56.06:187][283]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.11.09-07.56.06:199][283]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.11.09-07.56.06:219][283]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.11.09-07.56.06:219][283]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.11.09-07.56.06:219][283]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.11.09-07.56.06:219][283]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.11.09-07.56.06:224][283]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.11.09-07.56.06:228][283]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.11.09-07.56.06:228][283]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.11.09-07.56.06:236][283]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.11.09-07.56.06:236][283]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.11.09-07.56.06:236][283]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.11.09-07.56.06:236][283]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.11.09-07.56.06:246][283]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.11.09-07.56.06:246][283]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.11.09-07.56.06:268][283]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.11.09-07.56.06:268][283]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.11.09-07.56.06:279][283]LogExit: Exiting.
+[2018.11.09-07.56.06:301][283]Log file closed, 11/09/18 14:56:06
